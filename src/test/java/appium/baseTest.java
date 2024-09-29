@@ -15,6 +15,7 @@ import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
+import java.time.Duration;
 
 
 public class baseTest {
@@ -43,6 +44,7 @@ public class baseTest {
         options.setApp("//Users//aashok//IdeaProjects//appium_learnings//src//test//resources//ApiDemos-debug.apk");
 //		AndroidDriver driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(),options);
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723"),options);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
     @AfterClass
     public void tearDown(){
