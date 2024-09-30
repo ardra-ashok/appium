@@ -18,7 +18,6 @@ public class appiumBasics extends baseTest{
         Assert.assertEquals(driver.findElement(By.id("android:id/alertTitle")).getText(),"WiFi settings");
         driver.findElement(By.id("android:id/edit")).sendKeys("test wifi");
         driver.findElements(AppiumBy.className("android.widget.Button")).get(1).click();
-
     }
 
 }
