@@ -11,8 +11,6 @@ public class ScrollDemo extends baseTest {
         driver.findElement(AppiumBy.accessibilityId("Views")).click();
         scrollToAnElement("WebView");
         scrollToEnd();
-
-
     }
 
 }
