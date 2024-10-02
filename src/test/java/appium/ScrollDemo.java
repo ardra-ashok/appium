@@ -12,5 +12,4 @@ public class ScrollDemo extends baseTest {
         scrollToAnElement("WebView");
         scrollToEnd();
     }
-
 }
