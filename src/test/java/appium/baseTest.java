@@ -80,4 +80,12 @@ public class baseTest {
                 "percent", 0.10
         ));
     }
+
+    public void dragDropDemo(WebElement element, int[] coords){
+        ((JavascriptExecutor) driver).executeScript("mobile: dragGesture", ImmutableMap.of(
+                "elementId", ((RemoteWebElement) element).getId(),
+                "endX", coords[0],
+                "endY", coords[1]
+        ));
+    }
 }
