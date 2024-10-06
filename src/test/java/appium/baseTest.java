@@ -33,7 +33,6 @@ public class baseTest {
         }
 
         File logFile = new File(logDir, "appium-logfile.log");
-
         service = new AppiumServiceBuilder()
                 .withAppiumJS(new File("//usr//local//lib//node_modules//appium//build//lib//main.js"))
                 .withIPAddress("127.0.0.1")
@@ -44,8 +43,8 @@ public class baseTest {
         UiAutomator2Options options = new UiAutomator2Options();
         options.setDeviceName("Pixel_3a_testEmulator");
         options.setChromedriverExecutable("/Users/aashok/IdeaProjects/appium_learnings/drivers/chromedriver");
-//      Xpath, id, accessibilityId, className , androidUiAutomator
         options.setApp("//Users//aashok//IdeaProjects//appium_learnings//src//test//resources//General-Store.apk");
+//      Xpath, id, accessibilityId, className , androidUiAutomator
 //		AndroidDriver driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(),options);
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723"),options);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
