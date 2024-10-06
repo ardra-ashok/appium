@@ -65,7 +65,6 @@ public class ecommerce extends baseTest {
         driver.findElement(By.id("android:id/button1")).click();
         driver.findElement(AppiumBy.className("android.widget.CheckBox")).click();
         driver.findElement(By.id("com.androidsample.generalstore:id/btnProceed")).click();
-        Thread.sleep(2000);
     }
 
 

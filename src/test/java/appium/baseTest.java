@@ -11,6 +11,7 @@ import io.appium.java_client.service.local.AppiumServiceBuilder;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -25,6 +26,7 @@ public class baseTest {
     public static AndroidDriver driver;
     @BeforeClass
     public void configureAppium() throws MalformedURLException {
+
         File logDir = new File("/Users/aashok/IdeaProjects/appium_learnings/appium_logs");
         if (!logDir.exists()) {
             logDir.mkdirs();
@@ -41,7 +43,7 @@ public class baseTest {
         service.start();
         UiAutomator2Options options = new UiAutomator2Options();
         options.setDeviceName("Pixel_3a_testEmulator");
-
+        options.setChromedriverExecutable("/Users/aashok/IdeaProjects/appium_learnings/drivers/chromedriver");
 //      Xpath, id, accessibilityId, className , androidUiAutomator
         options.setApp("//Users//aashok//IdeaProjects//appium_learnings//src//test//resources//General-Store.apk");
 //		AndroidDriver driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(),options);
