@@ -1,17 +1,17 @@
-2024-10-05 23:58:13:987 [Appium] Welcome to Appium v2.11.4
-2024-10-05 23:58:13:988 [Appium] Non-default server args:
-2024-10-05 23:58:13:989 [Appium] { address: '127.0.0.1' }
-2024-10-05 23:58:13:989 [Appium] The autodetected Appium home path: /Users/aashok
-2024-10-05 23:58:13:990 [Appium] Attempting to load driver uiautomator2...
-2024-10-05 23:58:13:991 [Appium] Requiring driver at /Users/aashok/node_modules/appium-uiautomator2-driver/build/index.js
-2024-10-05 23:58:14:412 [Appium] AndroidUiautomator2Driver has been successfully loaded in 0.422s
-2024-10-05 23:58:14:421 [Appium] Appium REST http interface listener started on http://127.0.0.1:4723
-2024-10-05 23:58:14:421 [Appium] Available drivers:
-2024-10-05 23:58:14:421 [Appium]   - uiautomator2@3.8.0 (automationName 'UiAutomator2')
-2024-10-05 23:58:14:421 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
-2024-10-05 23:58:31:861 [Appium] Received SIGTERM - shutting down
-2024-10-05 23:58:31:861 [AppiumDriver@cc28] There are no active sessions for cleanup
-2024-10-05 23:58:31:862 uncaughtException: write EPIPE
+2024-10-06 00:14:40:768 [Appium] Welcome to Appium v2.11.4
+2024-10-06 00:14:40:769 [Appium] Non-default server args:
+2024-10-06 00:14:40:770 [Appium] { address: '127.0.0.1' }
+2024-10-06 00:14:40:770 [Appium] The autodetected Appium home path: /Users/aashok
+2024-10-06 00:14:40:770 [Appium] Attempting to load driver uiautomator2...
+2024-10-06 00:14:40:771 [Appium] Requiring driver at /Users/aashok/node_modules/appium-uiautomator2-driver/build/index.js
+2024-10-06 00:14:41:146 [Appium] AndroidUiautomator2Driver has been successfully loaded in 0.376s
+2024-10-06 00:14:41:154 [Appium] Appium REST http interface listener started on http://127.0.0.1:4723
+2024-10-06 00:14:41:155 [Appium] Available drivers:
+2024-10-06 00:14:41:155 [Appium]   - uiautomator2@3.8.0 (automationName 'UiAutomator2')
+2024-10-06 00:14:41:155 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+2024-10-06 00:15:04:878 [Appium] Received SIGTERM - shutting down
+2024-10-06 00:15:04:879 [AppiumDriver@1d5c] There are no active sessions for cleanup
+2024-10-06 00:15:04:883 uncaughtException: write EPIPE
 Error: write EPIPE
     at afterWriteDispatched (node:internal/stream_base_commons:161:15)
     at writeGeneric (node:internal/stream_base_commons:152:3)
@@ -35,7 +35,7 @@ Error: write EPIPE
     at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:166:10)
     at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:155:83)
     at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-2024-10-05 23:58:31:863 uncaughtException: write EPIPE
+2024-10-06 00:15:04:884 uncaughtException: write EPIPE
 Error: write EPIPE
     at afterWriteDispatched (node:internal/stream_base_commons:161:15)
     at writeGeneric (node:internal/stream_base_commons:152:3)
@@ -59,7 +59,7 @@ Error: write EPIPE
     at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:166:10)
     at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:155:83)
     at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-2024-10-05 23:58:31:864 uncaughtException: write EPIPE
+2024-10-06 00:15:04:885 uncaughtException: write EPIPE
 Error: write EPIPE
     at afterWriteDispatched (node:internal/stream_base_commons:161:15)
     at writeGeneric (node:internal/stream_base_commons:152:3)
@@ -83,7 +83,7 @@ Error: write EPIPE
     at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:166:10)
     at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:155:83)
     at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-2024-10-05 23:58:31:865 uncaughtException: write EPIPE
+2024-10-06 00:15:04:886 uncaughtException: write EPIPE
 Error: write EPIPE
     at afterWriteDispatched (node:internal/stream_base_commons:161:15)
     at writeGeneric (node:internal/stream_base_commons:152:3)
@@ -107,7 +107,7 @@ Error: write EPIPE
     at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:166:10)
     at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:155:83)
     at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-2024-10-05 23:58:31:866 uncaughtException: write EPIPE
+2024-10-06 00:15:04:887 uncaughtException: write EPIPE
 Error: write EPIPE
     at afterWriteDispatched (node:internal/stream_base_commons:161:15)
     at writeGeneric (node:internal/stream_base_commons:152:3)

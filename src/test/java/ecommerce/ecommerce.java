@@ -60,6 +60,12 @@ public class ecommerce extends baseTest {
         }
         double displaySum = Double.parseDouble(driver.findElement(By.id("com.androidsample.generalstore:id/totalAmountLbl")).getText().replace("$",""));
         Assert.assertEquals(displaySum,total);
+        longPressAction(driver.findElement(By.id("com.androidsample.generalstore:id/termsButton")));
+        Assert.assertEquals(driver.findElement(By.id("com.androidsample.generalstore:id/alertTitle")).getText(),"Terms Of Conditions");
+        driver.findElement(By.id("android:id/button1")).click();
+        driver.findElement(AppiumBy.className("android.widget.CheckBox")).click();
+        driver.findElement(By.id("com.androidsample.generalstore:id/btnProceed")).click();
+        Thread.sleep(2000);
     }
 
 
