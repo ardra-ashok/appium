@@ -5,6 +5,7 @@ import io.appium.java_client.ios.options.XCUITestOptions;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.io.File;
@@ -16,7 +17,7 @@ public class iosBaseTest {
 
     public AppiumDriverLocalService service;
     public IOSDriver driver;
-    @Test
+    @BeforeClass
     public void configureAppium() throws MalformedURLException {
 
         File logDir = new File("/Users/aashok/IdeaProjects/appium_learnings/appium_logs");
