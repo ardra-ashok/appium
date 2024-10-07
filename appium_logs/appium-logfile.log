@@ -1,17 +1,21 @@
-2024-10-06 07:18:05:729 [Appium] Welcome to Appium v2.11.4
-2024-10-06 07:18:05:730 [Appium] Non-default server args:
-2024-10-06 07:18:05:731 [Appium] { address: '127.0.0.1' }
-2024-10-06 07:18:05:731 [Appium] The autodetected Appium home path: /Users/aashok
-2024-10-06 07:18:05:731 [Appium] Attempting to load driver uiautomator2...
-2024-10-06 07:18:05:732 [Appium] Requiring driver at /Users/aashok/node_modules/appium-uiautomator2-driver/build/index.js
-2024-10-06 07:18:06:103 [Appium] AndroidUiautomator2Driver has been successfully loaded in 0.372s
-2024-10-06 07:18:06:112 [Appium] Appium REST http interface listener started on http://127.0.0.1:4723
-2024-10-06 07:18:06:112 [Appium] Available drivers:
-2024-10-06 07:18:06:113 [Appium]   - uiautomator2@3.8.0 (automationName 'UiAutomator2')
-2024-10-06 07:18:06:113 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
-2024-10-06 07:18:12:605 [Appium] Received SIGTERM - shutting down
-2024-10-06 07:18:12:605 [AppiumDriver@ba6c] There are no active sessions for cleanup
-2024-10-06 07:18:12:609 uncaughtException: write EPIPE
+2024-10-07 03:19:41:557 [Appium] Welcome to Appium v2.11.4
+2024-10-07 03:19:41:558 [Appium] Non-default server args:
+2024-10-07 03:19:41:559 [Appium] { address: '127.0.0.1', port: 4725 }
+2024-10-07 03:19:41:559 [Appium] The autodetected Appium home path: /Users/aashok
+2024-10-07 03:19:41:559 [Appium] Attempting to load driver uiautomator2...
+2024-10-07 03:19:41:560 [Appium] Attempting to load driver xcuitest...
+2024-10-07 03:19:41:561 [Appium] Requiring driver at /Users/aashok/node_modules/appium-xcuitest-driver/build/index.js
+2024-10-07 03:19:41:562 [Appium] Requiring driver at /Users/aashok/node_modules/appium-uiautomator2-driver/build/index.js
+2024-10-07 03:19:42:747 [Appium] XCUITestDriver has been successfully loaded in 1.187s
+2024-10-07 03:19:42:747 [Appium] AndroidUiautomator2Driver has been successfully loaded in 1.187s
+2024-10-07 03:19:42:756 [Appium] Appium REST http interface listener started on http://127.0.0.1:4725
+2024-10-07 03:19:42:757 [Appium] Available drivers:
+2024-10-07 03:19:42:757 [Appium]   - uiautomator2@3.8.0 (automationName 'UiAutomator2')
+2024-10-07 03:19:42:757 [Appium]   - xcuitest@7.27.0 (automationName 'XCUITest')
+2024-10-07 03:19:42:757 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+2024-10-07 03:19:45:471 [Appium] Received SIGTERM - shutting down
+2024-10-07 03:19:45:472 [AppiumDriver@1b29] There are no active sessions for cleanup
+2024-10-07 03:19:45:476 uncaughtException: write EPIPE
 Error: write EPIPE
     at afterWriteDispatched (node:internal/stream_base_commons:161:15)
     at writeGeneric (node:internal/stream_base_commons:152:3)
@@ -35,7 +39,19 @@ Error: write EPIPE
     at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:166:10)
     at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:155:83)
     at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-2024-10-06 07:18:12:610 uncaughtException: write EPIPE
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at DerivedLogger.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.<computed> [as info] (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/create-logger.js:81:14)
+    at Log.<anonymous> (/usr/local/lib/node_modules/appium/lib/logsink.js:88:65)
+    at Log.emit (node:events:519:28)
+    at Log.log (/usr/local/lib/node_modules/appium/node_modules/@appium/logger/lib/log.ts:258:10)
+    at Log.info (/usr/local/lib/node_modules/appium/node_modules/@appium/logger/lib/log.ts:179:10)
+    at Object.wrappedLogger.<computed> [as info] (/usr/local/lib/node_modules/appium/node_modules/@appium/support/lib/logging.js:72:22)
+    at process.onSignal (/usr/local/lib/node_modules/appium/lib/main.js:438:14)
+    at Object.onceWrapper (node:events:634:26)
+    at process.emit (node:events:531:35)
+    at process.emit (/usr/local/lib/node_modules/appium/node_modules/source-map-support/source-map-support.js:516:21)
+2024-10-07 03:19:45:477 uncaughtException: write EPIPE
 Error: write EPIPE
     at afterWriteDispatched (node:internal/stream_base_commons:161:15)
     at writeGeneric (node:internal/stream_base_commons:152:3)
@@ -59,7 +75,19 @@ Error: write EPIPE
     at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:166:10)
     at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:155:83)
     at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-2024-10-06 07:18:12:611 uncaughtException: write EPIPE
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at DerivedLogger.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:216:12)
+    at ExceptionHandler._uncaughtException (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/exception-handler.js:220:17)
+    at process.emit (node:events:519:28)
+    at process.emit (/usr/local/lib/node_modules/appium/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/usr/local/lib/node_modules/appium/node_modules/lockfile/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/aashok/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/aashok/node_modules/lockfile/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/aashok/node_modules/appium-uiautomator2-driver/node_modules/source-map-support/source-map-support.js:516:21)
+2024-10-07 03:19:45:478 uncaughtException: write EPIPE
 Error: write EPIPE
     at afterWriteDispatched (node:internal/stream_base_commons:161:15)
     at writeGeneric (node:internal/stream_base_commons:152:3)
@@ -83,7 +111,19 @@ Error: write EPIPE
     at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:166:10)
     at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:155:83)
     at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-2024-10-06 07:18:12:611 uncaughtException: write EPIPE
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at DerivedLogger.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:216:12)
+    at ExceptionHandler._uncaughtException (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/exception-handler.js:220:17)
+    at process.emit (node:events:519:28)
+    at process.emit (/usr/local/lib/node_modules/appium/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/usr/local/lib/node_modules/appium/node_modules/lockfile/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/aashok/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/aashok/node_modules/lockfile/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/aashok/node_modules/appium-uiautomator2-driver/node_modules/source-map-support/source-map-support.js:516:21)
+2024-10-07 03:19:45:479 uncaughtException: write EPIPE
 Error: write EPIPE
     at afterWriteDispatched (node:internal/stream_base_commons:161:15)
     at writeGeneric (node:internal/stream_base_commons:152:3)
@@ -107,7 +147,19 @@ Error: write EPIPE
     at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:166:10)
     at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:155:83)
     at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-2024-10-06 07:18:12:612 uncaughtException: write EPIPE
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at DerivedLogger.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:216:12)
+    at ExceptionHandler._uncaughtException (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/exception-handler.js:220:17)
+    at process.emit (node:events:519:28)
+    at process.emit (/usr/local/lib/node_modules/appium/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/usr/local/lib/node_modules/appium/node_modules/lockfile/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/aashok/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/aashok/node_modules/lockfile/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/aashok/node_modules/appium-uiautomator2-driver/node_modules/source-map-support/source-map-support.js:516:21)
+2024-10-07 03:19:45:480 uncaughtException: write EPIPE
 Error: write EPIPE
     at afterWriteDispatched (node:internal/stream_base_commons:161:15)
     at writeGeneric (node:internal/stream_base_commons:152:3)
@@ -131,3 +183,15 @@ Error: write EPIPE
     at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:166:10)
     at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:155:83)
     at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at DerivedLogger.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:216:12)
+    at ExceptionHandler._uncaughtException (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/exception-handler.js:220:17)
+    at process.emit (node:events:519:28)
+    at process.emit (/usr/local/lib/node_modules/appium/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/usr/local/lib/node_modules/appium/node_modules/lockfile/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/aashok/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/aashok/node_modules/lockfile/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/aashok/node_modules/appium-uiautomator2-driver/node_modules/source-map-support/source-map-support.js:516:21)
