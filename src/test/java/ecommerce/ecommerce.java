@@ -1,6 +1,6 @@
 package ecommerce;
 
-import appium.baseTest;
+import appium_android.baseTest;
 import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

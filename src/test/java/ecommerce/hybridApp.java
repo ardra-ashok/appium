@@ -1,6 +1,6 @@
 package ecommerce;
 
-import appium.baseTest;
+import appium_android.baseTest;
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.nativekey.AndroidKey;
 import io.appium.java_client.android.nativekey.KeyEvent;

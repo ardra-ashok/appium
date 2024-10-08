@@ -12,6 +12,7 @@ import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
+import java.util.Map;
 
 public class iosBaseTest {
 
@@ -35,7 +36,7 @@ public class iosBaseTest {
         service.start();
         XCUITestOptions options = new XCUITestOptions();
 
-        options.setDeviceName("iPhone 16 Pro");
+        options.setDeviceName("iPhone 16");
         options.setApp("//Users//aashok//IdeaProjects//appium_learnings//src//test//resources//UIKitCatalog.app");
         options.setPlatformVersion("18.0");
         options.setWdaLaunchTimeout(Duration.ofSeconds(20));
@@ -47,5 +48,12 @@ public class iosBaseTest {
     public void tearDown(){
         driver.quit();
         service.stop();
+    }
+
+    public void scrollToEnd(Map<String,Object> params){
+        driver.executeScript("mobile:scroll",params);
+    }
+    public void scrollToElement(Map<String, Object> scrollParams){
+        driver.executeScript("mobile:scroll", scrollParams);
     }
 }

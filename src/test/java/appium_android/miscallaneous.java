@@ -1,4 +1,4 @@
-package appium;
+package appium_android;
 
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.nativekey.AndroidKey;

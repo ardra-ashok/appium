@@ -1,15 +1,15 @@
 # appium_learnings
 
 {
-"appium:APP": "//Users//aashok//IdeaProjects//appium_learnings//src//test//resources//ApiDemos-debug.apk",
-"appium:deviceName": "Pixel_3a_testEmulator",
+"appium_android:APP": "//Users//aashok//IdeaProjects//appium_learnings//src//test//resources//ApiDemos-debug.apk",
+"appium_android:deviceName": "Pixel_3a_testEmulator",
 "platformName": "android",
-"appium:automationName": "UIAutomator2"
+"appium_android:automationName": "UIAutomator2"
 }
 command to get the package name and activity name
     adb shell dumpsys window | grep -E 'mCurrentFocus'
 
-io.appium.android.apis(package name)/io.appium.android.apis.preference.PreferenceDependencies(activity name)
+io.appium_android.android.apis(package name)/io.appium_android.android.apis.preference.PreferenceDependencies(activity name)
 
 export JAVA_HOME=$(/usr/libexec/java_home)
 export PATH=$PATH:/usr/local/git/bin:/usr/local/bin
