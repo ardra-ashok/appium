@@ -37,7 +37,8 @@ public class iosBaseTest {
         XCUITestOptions options = new XCUITestOptions();
 
         options.setDeviceName("iPhone 16");
-        options.setApp("//Users//aashok//IdeaProjects//appium_learnings//src//test//resources//UIKitCatalog.app");
+//        options.setApp("//Users//aashok//IdeaProjects//appium_learnings//src//test//resources//UIKitCatalog.app");
+        options.setApp("//Users//aashok//IdeaProjects//appium_learnings//src//test//resources//TestApp 3.app");
         options.setPlatformVersion("18.0");
         options.setWdaLaunchTimeout(Duration.ofSeconds(20));
         driver = new IOSDriver(new URL("http://127.0.0.1:4725"),options);
