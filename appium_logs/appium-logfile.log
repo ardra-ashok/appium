@@ -1,36 +1,36 @@
-2024-10-08 11:51:58:474 [Appium] Welcome to Appium v2.11.4
-2024-10-08 11:51:58:475 [Appium] Non-default server args:
-2024-10-08 11:51:58:477 [Appium] { address: '127.0.0.1', port: 4725 }
-2024-10-08 11:51:58:477 [Appium] The autodetected Appium home path: /Users/aashok
-2024-10-08 11:51:58:477 [Appium] Attempting to load driver uiautomator2...
-2024-10-08 11:51:58:478 [Appium] Attempting to load driver xcuitest...
-2024-10-08 11:51:58:479 [Appium] Requiring driver at /Users/aashok/node_modules/appium-uiautomator2-driver/build/index.js
-2024-10-08 11:51:58:480 [Appium] Requiring driver at /Users/aashok/node_modules/appium-xcuitest-driver/build/index.js
-2024-10-08 11:51:59:330 [Appium] AndroidUiautomator2Driver has been successfully loaded in 0.853s
-2024-10-08 11:51:59:330 [Appium] XCUITestDriver has been successfully loaded in 0.853s
-2024-10-08 11:51:59:337 [Appium] Appium REST http interface listener started on http://127.0.0.1:4725
-2024-10-08 11:51:59:337 [Appium] Available drivers:
-2024-10-08 11:51:59:337 [Appium]   - uiautomator2@3.8.0 (automationName 'UiAutomator2')
-2024-10-08 11:51:59:337 [Appium]   - xcuitest@7.27.0 (automationName 'XCUITest')
-2024-10-08 11:51:59:337 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
-2024-10-08 11:51:59:347 [HTTP] --> GET /status {}
-2024-10-08 11:51:59:347 [AppiumDriver@96e4] Calling AppiumDriver.getStatus() with args: []
-2024-10-08 11:51:59:348 [AppiumDriver@96e4] Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"2.11.4"}}
-2024-10-08 11:51:59:349 [HTTP] <-- GET /status 200 2 ms - 111 
-2024-10-08 11:51:59:554 [HTTP] Request idempotency key: b8fd87e3-637d-49f5-bf7f-111e857aef93
-2024-10-08 11:51:59:559 [HTTP] --> POST /session {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:app":"//Users//aashok//IdeaProjects//appium_learnings//src//test//resources//UIKitCatalog.app","appium:automationName":"XCuiTest","appium:deviceName":"iPhone 16","appium:platformVersion":"18.0","appium:wdaLaunchTimeout":20000,"platformName":"IOS"}}}
-2024-10-08 11:51:59:559 [AppiumDriver@96e4] Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:app":"//Users//aashok//IdeaProjects//appium_learnings//src//test//resources//UIKitCatalog.app","appium:automationName":"XCuiTest","appium:deviceName":"iPhone 16","appium:platformVersion":"18.0","appium:wdaLaunchTimeout":20000,"platformName":"IOS"}}]
-2024-10-08 11:51:59:560 [AppiumDriver@96e4] Event 'newSessionRequested' logged at 1728388319560 (22:51:59 GMT+1100 (Australian Eastern Daylight Time))
-2024-10-08 11:51:59:561 [Appium] Attempting to find matching driver for automationName 'XCuiTest' and platformName 'IOS'
-2024-10-08 11:51:59:561 [Appium] The 'xcuitest' driver was installed and matched caps.
-2024-10-08 11:51:59:561 [Appium] Will require it at /Users/aashok/node_modules/appium-xcuitest-driver
-2024-10-08 11:51:59:561 [Appium] Requiring driver at /Users/aashok/node_modules/appium-xcuitest-driver/build/index.js
-2024-10-08 11:51:59:562 [AppiumDriver@96e4] Appium v2.11.4 creating new XCUITestDriver (v7.27.0) session
-2024-10-08 11:51:59:562 [AppiumDriver@96e4] Checking BaseDriver versions for Appium and XCUITestDriver
-2024-10-08 11:51:59:562 [AppiumDriver@96e4] Appium's BaseDriver version is 9.11.4
-2024-10-08 11:51:59:562 [AppiumDriver@96e4] XCUITestDriver's BaseDriver version is 9.11.4
-2024-10-08 11:51:59:563 [XCUITestDriver@b4fc] 
-2024-10-08 11:51:59:564 [XCUITestDriver@b4fc] Creating session with W3C capabilities: {
+2024-10-09 10:10:06:976 [Appium] Welcome to Appium v2.11.4
+2024-10-09 10:10:06:977 [Appium] Non-default server args:
+2024-10-09 10:10:06:977 [Appium] { address: '127.0.0.1', port: 4725 }
+2024-10-09 10:10:06:977 [Appium] The autodetected Appium home path: /Users/aashok
+2024-10-09 10:10:06:978 [Appium] Attempting to load driver uiautomator2...
+2024-10-09 10:10:06:978 [Appium] Attempting to load driver xcuitest...
+2024-10-09 10:10:06:979 [Appium] Requiring driver at /Users/aashok/node_modules/appium-xcuitest-driver/build/index.js
+2024-10-09 10:10:06:980 [Appium] Requiring driver at /Users/aashok/node_modules/appium-uiautomator2-driver/build/index.js
+2024-10-09 10:10:07:851 [Appium] XCUITestDriver has been successfully loaded in 0.873s
+2024-10-09 10:10:07:851 [Appium] AndroidUiautomator2Driver has been successfully loaded in 0.873s
+2024-10-09 10:10:07:858 [Appium] Appium REST http interface listener started on http://127.0.0.1:4725
+2024-10-09 10:10:07:859 [Appium] Available drivers:
+2024-10-09 10:10:07:859 [Appium]   - uiautomator2@3.8.0 (automationName 'UiAutomator2')
+2024-10-09 10:10:07:859 [Appium]   - xcuitest@7.27.0 (automationName 'XCUITest')
+2024-10-09 10:10:07:859 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+2024-10-09 10:10:08:183 [HTTP] --> GET /status {}
+2024-10-09 10:10:08:185 [AppiumDriver@f12f] Calling AppiumDriver.getStatus() with args: []
+2024-10-09 10:10:08:187 [AppiumDriver@f12f] Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"2.11.4"}}
+2024-10-09 10:10:08:191 [HTTP] <-- GET /status 200 7 ms - 111 
+2024-10-09 10:10:08:420 [HTTP] Request idempotency key: e09756d9-c2fe-4f09-a457-81b1ced53e5d
+2024-10-09 10:10:08:425 [HTTP] --> POST /session {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:app":"//Users//aashok//IdeaProjects//appium_learnings//src//test//resources//UIKitCatalog.app","appium:automationName":"XCuiTest","appium:deviceName":"iPhone 16","appium:platformVersion":"18.0","appium:wdaLaunchTimeout":20000,"platformName":"IOS"}}}
+2024-10-09 10:10:08:425 [AppiumDriver@f12f] Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:app":"//Users//aashok//IdeaProjects//appium_learnings//src//test//resources//UIKitCatalog.app","appium:automationName":"XCuiTest","appium:deviceName":"iPhone 16","appium:platformVersion":"18.0","appium:wdaLaunchTimeout":20000,"platformName":"IOS"}}]
+2024-10-09 10:10:08:425 [AppiumDriver@f12f] Event 'newSessionRequested' logged at 1728468608425 (21:10:08 GMT+1100 (Australian Eastern Daylight Time))
+2024-10-09 10:10:08:426 [Appium] Attempting to find matching driver for automationName 'XCuiTest' and platformName 'IOS'
+2024-10-09 10:10:08:427 [Appium] The 'xcuitest' driver was installed and matched caps.
+2024-10-09 10:10:08:427 [Appium] Will require it at /Users/aashok/node_modules/appium-xcuitest-driver
+2024-10-09 10:10:08:427 [Appium] Requiring driver at /Users/aashok/node_modules/appium-xcuitest-driver/build/index.js
+2024-10-09 10:10:08:427 [AppiumDriver@f12f] Appium v2.11.4 creating new XCUITestDriver (v7.27.0) session
+2024-10-09 10:10:08:427 [AppiumDriver@f12f] Checking BaseDriver versions for Appium and XCUITestDriver
+2024-10-09 10:10:08:427 [AppiumDriver@f12f] Appium's BaseDriver version is 9.11.4
+2024-10-09 10:10:08:427 [AppiumDriver@f12f] XCUITestDriver's BaseDriver version is 9.11.4
+2024-10-09 10:10:08:429 [XCUITestDriver@82be] 
+2024-10-09 10:10:08:429 [XCUITestDriver@82be] Creating session with W3C capabilities: {
   "alwaysMatch": {
     "platformName": "IOS",
     "appium:app": "//Users//aashok//IdeaProjects//appium_learnings//src//test//resources//UIKitCatalog.app",
@@ -43,157 +43,206 @@
     {}
   ]
 }
-2024-10-08 11:51:59:567 [2d099154][XCUITestDriver@b4fc] Session created with session id: 2d099154-5268-4ccb-aebd-3c7e0e175966
-2024-10-08 11:51:59:572 [2d099154][XCUITest] Current user: 'aashok'
-2024-10-08 11:51:59:572 [2d099154][XCUITestDriver@b4fc] No real device udid has been provided in capabilities. Will select a matching simulator to run the test.
-2024-10-08 11:51:59:576 [2d099154][XCUITestDriver@b4fc] iOS SDK Version set to '18.0'
-2024-10-08 11:51:59:699 [2d099154][XCUITestDriver@b4fc] Looking for an existing Simulator with platformName: iOS, platformVersion: 18.0, deviceName: iPhone 16
-2024-10-08 11:51:59:712 [2d099154][XCUITestDriver@b4fc] Constructing iOS simulator for Xcode version 16.0 with udid 'D22BF542-F792-422A-9BFF-DEF57F3003FC'
-2024-10-08 11:51:59:713 [2d099154][XCUITestDriver@b4fc] Determining device to run tests on: udid: 'D22BF542-F792-422A-9BFF-DEF57F3003FC', real device: false
-2024-10-08 11:51:59:713 [2d099154][XCUITestDriver@b4fc] Event 'xcodeDetailsRetrieved' logged at 1728388319713 (22:51:59 GMT+1100 (Australian Eastern Daylight Time))
-2024-10-08 11:51:59:714 [2d099154][BaseDriver] Using local app '//Users//aashok//IdeaProjects//appium_learnings//src//test//resources//UIKitCatalog.app'
-2024-10-08 11:51:59:716 [2d099154][XCUITestDriver@b4fc] Caching the manifest for com.example.apple-samplecode.UICatalog app from a file source using the key 'dac2b9f8994b0dad2ee2f613ae0844edceda3c95'
-2024-10-08 11:51:59:716 [2d099154][XCUITestDriver@b4fc] Event 'appConfigured' logged at 1728388319716 (22:51:59 GMT+1100 (Australian Eastern Daylight Time))
-2024-10-08 11:51:59:716 [2d099154][XCUITest] Checking whether app '//Users//aashok//IdeaProjects//appium_learnings//src//test//resources//UIKitCatalog.app' is actually present on file system
-2024-10-08 11:51:59:716 [2d099154][XCUITest] App is present
-2024-10-08 11:51:59:717 [2d099154][XCUITestDriver@b4fc] CFBundleIdentifier: "com.example.apple-samplecode.UICatalog"
-2024-10-08 11:51:59:717 [2d099154][XCUITestDriver@b4fc] Event 'resetStarted' logged at 1728388319717 (22:51:59 GMT+1100 (Australian Eastern Daylight Time))
-2024-10-08 11:51:59:790 [2d099154][simctl] Error running 'terminate': An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=3):
+2024-10-09 10:10:08:433 [736e6d96][XCUITestDriver@82be] Session created with session id: 736e6d96-4180-417d-88f7-0120cd2bc6cc
+2024-10-09 10:10:08:437 [736e6d96][XCUITest] Current user: 'aashok'
+2024-10-09 10:10:08:437 [736e6d96][XCUITestDriver@82be] No real device udid has been provided in capabilities. Will select a matching simulator to run the test.
+2024-10-09 10:10:08:442 [736e6d96][XCUITestDriver@82be] iOS SDK Version set to '18.0'
+2024-10-09 10:10:08:544 [736e6d96][XCUITestDriver@82be] Looking for an existing Simulator with platformName: iOS, platformVersion: 18.0, deviceName: iPhone 16
+2024-10-09 10:10:08:557 [736e6d96][XCUITestDriver@82be] Constructing iOS simulator for Xcode version 16.0 with udid 'D22BF542-F792-422A-9BFF-DEF57F3003FC'
+2024-10-09 10:10:08:557 [736e6d96][XCUITestDriver@82be] Determining device to run tests on: udid: 'D22BF542-F792-422A-9BFF-DEF57F3003FC', real device: false
+2024-10-09 10:10:08:557 [736e6d96][XCUITestDriver@82be] Event 'xcodeDetailsRetrieved' logged at 1728468608557 (21:10:08 GMT+1100 (Australian Eastern Daylight Time))
+2024-10-09 10:10:08:558 [736e6d96][BaseDriver] Using local app '//Users//aashok//IdeaProjects//appium_learnings//src//test//resources//UIKitCatalog.app'
+2024-10-09 10:10:08:560 [736e6d96][XCUITestDriver@82be] Caching the manifest for com.example.apple-samplecode.UICatalog app from a file source using the key 'dac2b9f8994b0dad2ee2f613ae0844edceda3c95'
+2024-10-09 10:10:08:561 [736e6d96][XCUITestDriver@82be] Event 'appConfigured' logged at 1728468608561 (21:10:08 GMT+1100 (Australian Eastern Daylight Time))
+2024-10-09 10:10:08:561 [736e6d96][XCUITest] Checking whether app '//Users//aashok//IdeaProjects//appium_learnings//src//test//resources//UIKitCatalog.app' is actually present on file system
+2024-10-09 10:10:08:561 [736e6d96][XCUITest] App is present
+2024-10-09 10:10:08:561 [736e6d96][XCUITestDriver@82be] CFBundleIdentifier: "com.example.apple-samplecode.UICatalog"
+2024-10-09 10:10:08:561 [736e6d96][XCUITestDriver@82be] Event 'resetStarted' logged at 1728468608561 (21:10:08 GMT+1100 (Australian Eastern Daylight Time))
+2024-10-09 10:10:08:640 [736e6d96][simctl] Error running 'terminate': An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=3):
 Simulator device failed to terminate com.example.apple-samplecode.UICatalog.
 found nothing to terminate
 Underlying error (domain=NSPOSIXErrorDomain, code=3):
 	The request to terminate "com.example.apple-samplecode.UICatalog" failed. found nothing to terminate
 	found nothing to terminate
-2024-10-08 11:51:59:790 [2d099154][XCUITestDriver@b4fc] Reset: failed to terminate Simulator application with id "com.example.apple-samplecode.UICatalog"
-2024-10-08 11:51:59:790 [2d099154][XCUITestDriver@b4fc] Not scrubbing third party app in anticipation of uninstall
-2024-10-08 11:51:59:790 [2d099154][XCUITestDriver@b4fc] Event 'resetComplete' logged at 1728388319790 (22:51:59 GMT+1100 (Australian Eastern Daylight Time))
-2024-10-08 11:51:59:790 [2d099154][XCUITestDriver@b4fc] Using WDA path: '/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
-2024-10-08 11:51:59:790 [2d099154][XCUITestDriver@b4fc] Using WDA agent: '/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
-2024-10-08 11:51:59:862 [2d099154][XCUITestDriver@b4fc] Starting log capture for iOS Simulator with udid 'D22BF542-F792-422A-9BFF-DEF57F3003FC' using simctl
-2024-10-08 11:52:00:068 [2d099154][XCUITestDriver@b4fc] Event 'logCaptureStarted' logged at 1728388320068 (22:52:00 GMT+1100 (Australian Eastern Daylight Time))
-2024-10-08 11:52:00:068 [2d099154][XCUITestDriver@b4fc] Setting up simulator
-2024-10-08 11:52:00:069 [2d099154][XCUITestDriver@b4fc] Setting preferences of D22BF542-F792-422A-9BFF-DEF57F3003FC Simulator to {"ConnectHardwareKeyboard":false}
-2024-10-08 11:52:00:069 [2d099154][XCUITestDriver@b4fc] Setting common Simulator preferences to {"RotateWindowWhenSignaledByGuest":true,"StartLastDeviceOnLaunch":false,"DetachOnWindowClose":false,"AttachBootedOnStart":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false}
-2024-10-08 11:52:00:128 [2d099154][XCUITestDriver@b4fc] Updated D22BF542-F792-422A-9BFF-DEF57F3003FC Simulator preferences at '/Users/aashok/Library/Preferences/com.apple.iphonesimulator.plist' with {"RotateWindowWhenSignaledByGuest":true,"StartLastDeviceOnLaunch":false,"DetachOnWindowClose":false,"AttachBootedOnStart":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false,"DevicePreferences":{"D22BF542-F792-422A-9BFF-DEF57F3003FC":{"SimulatorExternalDisplay":2114,"ConnectHardwareKeyboard":false,"ChromeTint":"","SimulatorWindowGeometry":{"88602E02-B6B1-4624-BD69-A297BB056692":{"WindowCenter":"{812, 467.5}","WindowScale":0.9707207207207207}},"SimulatorWindowOrientation":"Portrait","SimulatorWindowRotationAngle":0}}}
-2024-10-08 11:52:00:212 [2d099154][XCUITestDriver@b4fc] Got Simulator UI client PID: 760
-2024-10-08 11:52:00:212 [2d099154][XCUITestDriver@b4fc] Both Simulator with UDID 'D22BF542-F792-422A-9BFF-DEF57F3003FC' and the UI client are currently running
-2024-10-08 11:52:00:214 [2d099154][XCUITestDriver@b4fc] Event 'simStarted' logged at 1728388320214 (22:52:00 GMT+1100 (Australian Eastern Daylight Time))
-2024-10-08 11:52:00:214 [2d099154][XCUITestDriver@b4fc] Verifying application platform
-2024-10-08 11:52:00:214 [2d099154][XCUITestDriver@b4fc] CFBundleSupportedPlatforms: ["iPhoneSimulator"]
-2024-10-08 11:52:00:215 [2d099154][XCUITestDriver@b4fc] CFBundleExecutable: "UIKitCatalog"
-2024-10-08 11:52:00:217 [2d099154][XCUITestDriver@b4fc] /Users/aashok/IdeaProjects/appium_learnings/src/test/resources/UIKitCatalog.app/UIKitCatalog: Mach-O 64-bit executable arm64
-2024-10-08 11:52:00:314 [2d099154][XCUITestDriver@b4fc] App 'com.example.apple-samplecode.UICatalog' is already installed
-2024-10-08 11:52:00:408 [2d099154][XCUITestDriver@b4fc] Reset requested. Removing app with id 'com.example.apple-samplecode.UICatalog' from the device
-2024-10-08 11:52:00:531 [2d099154][XCUITestDriver@b4fc] Installing '//Users//aashok//IdeaProjects//appium_learnings//src//test//resources//UIKitCatalog.app' on Simulator with UUID 'D22BF542-F792-422A-9BFF-DEF57F3003FC'...
-2024-10-08 11:52:00:574 [2d099154][XCUITestDriver@b4fc] Parsed BUILD_DIR configuration value: '/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/build'
-2024-10-08 11:52:00:574 [2d099154][XCUITestDriver@b4fc] Got derived data root: '/Users/aashok/node_modules/appium-xcuitest-driver/node_modules'
-2024-10-08 11:52:00:767 [2d099154][XCUITestDriver@b4fc] The app has been successfully installed in 235ms
-2024-10-08 11:52:00:767 [2d099154][XCUITestDriver@b4fc] Event 'appInstalled' logged at 1728388320767 (22:52:00 GMT+1100 (Australian Eastern Daylight Time))
-2024-10-08 11:52:00:808 [2d099154][XCUITestDriver@b4fc] No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
-2024-10-08 11:52:00:809 [2d099154][DevCon Factory] Requesting connection for device D22BF542-F792-422A-9BFF-DEF57F3003FC on local port 8100
-2024-10-08 11:52:00:809 [2d099154][DevCon Factory] Cached connections count: 0
-2024-10-08 11:52:00:809 [2d099154][DevCon Factory] Successfully requested the connection for D22BF542-F792-422A-9BFF-DEF57F3003FC:8100
-2024-10-08 11:52:00:809 [2d099154][XCUITestDriver@b4fc] Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
-2024-10-08 11:52:00:811 [2d099154][WD Proxy] Matched '/status' to command name 'getStatus'
-2024-10-08 11:52:00:811 [2d099154][WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
-2024-10-08 11:52:00:819 [2d099154][WD Proxy] Got response with status 200: {"value":{"build":{"upgradedAt":"1728269054421","version":"8.9.2","time":"Oct  7 2024 14:18:58","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"},"os":{"testmanagerdVersion":65535,"name":"iOS","sdkVersion":"18.0","version":"18.0"},"device":"iphone","ios":{"simulatorVersion":"18.0","ip":"192.168.0.27"},"message":"WebDriverAgent is ready to accept commands","state":"success","ready":true},"sessionId":null}
-2024-10-08 11:52:00:819 [2d099154][XCUITestDriver@b4fc] Upgrade timestamp of the currently bundled WDA: 1728269054421
-2024-10-08 11:52:00:819 [2d099154][XCUITestDriver@b4fc] Upgrade timestamp of the WDA on the device: 1728269054421
-2024-10-08 11:52:00:819 [2d099154][XCUITestDriver@b4fc] Will reuse previously cached WDA instance at 'http://127.0.0.1:8100/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 8100 if this is an undesired behavior.
-2024-10-08 11:52:00:819 [2d099154][XCUITestDriver@b4fc] Trying to start WebDriverAgent 2 times with 10000ms interval
-2024-10-08 11:52:00:820 [2d099154][XCUITestDriver@b4fc] These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
-2024-10-08 11:52:00:820 [2d099154][XCUITestDriver@b4fc] Event 'wdaStartAttempted' logged at 1728388320820 (22:52:00 GMT+1100 (Australian Eastern Daylight Time))
-2024-10-08 11:52:00:820 [2d099154][XCUITestDriver@b4fc] Using provided WebdriverAgent at 'http://127.0.0.1:8100/'
-2024-10-08 11:52:00:820 [2d099154][WD Proxy] Matched '/status' to command name 'getStatus'
-2024-10-08 11:52:00:820 [2d099154][WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
-2024-10-08 11:52:00:825 [2d099154][WD Proxy] Got response with status 200: {"value":{"build":{"upgradedAt":"1728269054421","version":"8.9.2","time":"Oct  7 2024 14:18:58","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"},"os":{"testmanagerdVersion":65535,"name":"iOS","sdkVersion":"18.0","version":"18.0"},"device":"iphone","ios":{"simulatorVersion":"18.0","ip":"192.168.0.27"},"message":"WebDriverAgent is ready to accept commands","state":"success","ready":true},"sessionId":null}
-2024-10-08 11:52:00:825 [2d099154][XCUITestDriver@b4fc] Event 'wdaSessionAttempted' logged at 1728388320825 (22:52:00 GMT+1100 (Australian Eastern Daylight Time))
-2024-10-08 11:52:00:825 [2d099154][XCUITestDriver@b4fc] Sending createSession command to WDA
-2024-10-08 11:52:00:826 [2d099154][XCUITestDriver@b4fc] Matched '/session' to command name 'createSession'
-2024-10-08 11:52:00:826 [2d099154][XCUITestDriver@b4fc] Proxying [POST /session] to [POST http://127.0.0.1:8100/session] with body: {"capabilities":{"firstMatch":[{"bundleId":"com.example.apple-samplecode.UICatalog","arguments":[],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true,"shouldTerminateApp":true,"forceAppLaunch":true,"useNativeCachingStrategy":true,"forceSimulatorSoftwareKeyboardPresence":true}],"alwaysMatch":{}}}
-2024-10-08 11:52:02:403 [2d099154][XCUITestDriver@b4fc] Got response with status 200: {"value":{"sessionId":"F54E003A-2B77-4CF6-BC89-DBF6654B6818","capabilities":{"sdkVersion":"18.0","device":"iphone"}},"sessionId":"F54E003A-2B77-4CF6-BC89-DBF6654B6818"}
-2024-10-08 11:52:02:403 [2d099154][XCUITestDriver@b4fc] Determined the downstream protocol as 'W3C'
-2024-10-08 11:52:02:404 [2d099154][XCUITestDriver@b4fc] WDA session startup took 1578ms
-2024-10-08 11:52:02:404 [2d099154][XCUITestDriver@b4fc] Event 'wdaSessionStarted' logged at 1728388322404 (22:52:02 GMT+1100 (Australian Eastern Daylight Time))
-2024-10-08 11:52:02:404 [2d099154][XCUITestDriver@b4fc] Event 'wdaStarted' logged at 1728388322404 (22:52:02 GMT+1100 (Australian Eastern Daylight Time))
-2024-10-08 11:52:02:405 [2d099154][BaseDriver] The value of 'elementResponseAttributes' setting did not change. Skipping the update for it
-2024-10-08 11:52:02:405 [2d099154][BaseDriver] The value of 'shouldUseCompactResponses' setting did not change. Skipping the update for it
-2024-10-08 11:52:02:406 [2d099154][AppiumDriver@96e4] New XCUITestDriver session created successfully, session 2d099154-5268-4ccb-aebd-3c7e0e175966 added to master session list
-2024-10-08 11:52:02:407 [2d099154][AppiumDriver@96e4] Event 'newSessionStarted' logged at 1728388322407 (22:52:02 GMT+1100 (Australian Eastern Daylight Time))
-2024-10-08 11:52:02:407 [2d099154][XCUITestDriver@b4fc] Cached the protocol value 'W3C' for the new session 2d099154-5268-4ccb-aebd-3c7e0e175966
-2024-10-08 11:52:02:408 [2d099154][XCUITestDriver@b4fc] Responding to client with driver.createSession() result: {"capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"IOS","app":"//Users//aashok//IdeaProjects//appium_learnings//src//test//resources//UIKitCatalog.app","automationName":"XCuiTest","deviceName":"iPhone 16","platformVersion":"18.0","wdaLaunchTimeout":20000,"udid":"D22BF542-F792-422A-9BFF-DEF57F3003FC"}}
-2024-10-08 11:52:02:410 [2d099154][HTTP] <-- POST /session 200 2849 ms - 541 
-2024-10-08 11:52:02:458 [2d099154][HTTP] --> POST /session/2d099154-5268-4ccb-aebd-3c7e0e175966/timeouts {"implicit":20000}
-2024-10-08 11:52:02:459 [2d099154][XCUITestDriver@b4fc] Calling AppiumDriver.timeouts() with args: [null,null,null,null,20000,"2d099154-5268-4ccb-aebd-3c7e0e175966"]
-2024-10-08 11:52:02:459 [2d099154][XCUITestDriver@b4fc] Executing command 'timeouts'
-2024-10-08 11:52:02:459 [2d099154][XCUITestDriver@b4fc] W3C timeout argument: {"implicit":20000}}
-2024-10-08 11:52:02:459 [2d099154][XCUITestDriver@b4fc] Set implicit wait to 20000ms
-2024-10-08 11:52:02:460 [2d099154][XCUITestDriver@b4fc] Responding to client with driver.timeouts() result: null
-2024-10-08 11:52:02:460 [2d099154][HTTP] <-- POST /session/2d099154-5268-4ccb-aebd-3c7e0e175966/timeouts 200 2 ms - 14 
-2024-10-08 11:52:02:476 [2d099154][HTTP] --> POST /session/2d099154-5268-4ccb-aebd-3c7e0e175966/element {"using":"accessibility id","value":"Web View"}
-2024-10-08 11:52:02:477 [2d099154][XCUITestDriver@b4fc] Calling AppiumDriver.findElement() with args: ["accessibility id","Web View","2d099154-5268-4ccb-aebd-3c7e0e175966"]
-2024-10-08 11:52:02:477 [2d099154][XCUITestDriver@b4fc] Executing command 'findElement'
-2024-10-08 11:52:02:478 [2d099154][XCUITestDriver@b4fc] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
-2024-10-08 11:52:02:478 [2d099154][XCUITestDriver@b4fc] Waiting up to 20000 ms for condition
-2024-10-08 11:52:02:482 [2d099154][XCUITestDriver@b4fc] Matched '/element' to command name 'findElement'
-2024-10-08 11:52:02:483 [2d099154][XCUITestDriver@b4fc] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/F54E003A-2B77-4CF6-BC89-DBF6654B6818/element] with body: {"using":"accessibility id","value":"Web View"}
-2024-10-08 11:52:02:642 [2d099154][XCUITestDriver@b4fc] Got response with status 200: {"value":{"ELEMENT":"8B000000-0000-0000-9FD8-000000000000","element-6066-11e4-a52e-4f735466cecf":"8B000000-0000-0000-9FD8-000000000000"},"sessionId":"F54E003A-2B77-4CF6-BC89-DBF6654B6818"}
-2024-10-08 11:52:02:642 [2d099154][XCUITestDriver@b4fc] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"8B000000-0000-0000-9FD8-000000000000","ELEMENT":"8B000000-0000-0000-9FD8-000000000000"}
-2024-10-08 11:52:02:643 [2d099154][HTTP] <-- POST /session/2d099154-5268-4ccb-aebd-3c7e0e175966/element 200 166 ms - 137 
-2024-10-08 11:52:02:646 [2d099154][HTTP] --> POST /session/2d099154-5268-4ccb-aebd-3c7e0e175966/execute/sync {"script":"mobile:scroll","args":[{"predicateString":"label == 'Web View'","direction":"down"}]}
-2024-10-08 11:52:02:649 [2d099154][XCUITestDriver@b4fc] Calling AppiumDriver.execute() with args: ["mobile:scroll",[{"predicateString":"label == 'Web View'","direction":"down"}],"2d099154-5268-4ccb-aebd-3c7e0e175966"]
-2024-10-08 11:52:02:649 [2d099154][XCUITestDriver@b4fc] Executing command 'execute'
-2024-10-08 11:52:02:659 [2d099154][XCUITestDriver@b4fc] Proxying to WDA with an unknown route: POST /wda/scroll
-2024-10-08 11:52:02:663 [2d099154][XCUITestDriver@b4fc] Proxying [POST /wda/scroll] to [POST http://127.0.0.1:8100/session/F54E003A-2B77-4CF6-BC89-DBF6654B6818/wda/scroll] with body: {"direction":"down"}
-2024-10-08 11:52:09:414 [2d099154][XCUITestDriver@b4fc] Got response with status 200: {"value":null,"sessionId":"F54E003A-2B77-4CF6-BC89-DBF6654B6818"}
-2024-10-08 11:52:09:415 [2d099154][XCUITestDriver@b4fc] Responding to client with driver.execute() result: null
-2024-10-08 11:52:09:416 [2d099154][HTTP] <-- POST /session/2d099154-5268-4ccb-aebd-3c7e0e175966/execute/sync 200 6770 ms - 14 
-2024-10-08 11:52:09:425 [2d099154][HTTP] --> POST /session/2d099154-5268-4ccb-aebd-3c7e0e175966/element/8B000000-0000-0000-9FD8-000000000000/click {"id":"8B000000-0000-0000-9FD8-000000000000"}
-2024-10-08 11:52:09:425 [2d099154][XCUITestDriver@b4fc] Driver proxy active, passing request on via HTTP proxy
-2024-10-08 11:52:09:426 [2d099154][XCUITestDriver@b4fc] Executing command 'proxyReqRes'
-2024-10-08 11:52:09:428 [2d099154][XCUITestDriver@b4fc] Matched '/session/2d099154-5268-4ccb-aebd-3c7e0e175966/element/8B000000-0000-0000-9FD8-000000000000/click' to command name 'click'
-2024-10-08 11:52:09:429 [2d099154][XCUITestDriver@b4fc] Proxying [POST /session/2d099154-5268-4ccb-aebd-3c7e0e175966/element/8B000000-0000-0000-9FD8-000000000000/click] to [POST http://127.0.0.1:8100/session/F54E003A-2B77-4CF6-BC89-DBF6654B6818/element/8B000000-0000-0000-9FD8-000000000000/click] with body: {"id":"8B000000-0000-0000-9FD8-000000000000"}
-2024-10-08 11:52:10:216 [2d099154][XCUITestDriver@b4fc] Got response with status 200: {"value":null,"sessionId":"F54E003A-2B77-4CF6-BC89-DBF6654B6818"}
-2024-10-08 11:52:10:216 [2d099154][XCUITestDriver@b4fc] Replacing sessionId F54E003A-2B77-4CF6-BC89-DBF6654B6818 with 2d099154-5268-4ccb-aebd-3c7e0e175966
-2024-10-08 11:52:10:218 [2d099154][HTTP] <-- POST /session/2d099154-5268-4ccb-aebd-3c7e0e175966/element/8B000000-0000-0000-9FD8-000000000000/click 200 793 ms - 65 
-2024-10-08 11:52:12:231 [2d099154][HTTP] --> POST /session/2d099154-5268-4ccb-aebd-3c7e0e175966/element {"using":"xpath","value":"//XCUIElementTypeButton[@name='UIKitCatalog']"}
-2024-10-08 11:52:12:231 [2d099154][XCUITestDriver@b4fc] Calling AppiumDriver.findElement() with args: ["xpath","//XCUIElementTypeButton[@name='UIKitCatalog']","2d099154-5268-4ccb-aebd-3c7e0e175966"]
-2024-10-08 11:52:12:232 [2d099154][XCUITestDriver@b4fc] Executing command 'findElement'
-2024-10-08 11:52:12:232 [2d099154][XCUITestDriver@b4fc] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
-2024-10-08 11:52:12:232 [2d099154][XCUITestDriver@b4fc] Waiting up to 20000 ms for condition
-2024-10-08 11:52:12:236 [2d099154][XCUITestDriver@b4fc] Matched '/element' to command name 'findElement'
-2024-10-08 11:52:12:237 [2d099154][XCUITestDriver@b4fc] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/F54E003A-2B77-4CF6-BC89-DBF6654B6818/element] with body: {"using":"xpath","value":"//XCUIElementTypeButton[@name='UIKitCatalog']"}
-2024-10-08 11:52:12:361 [2d099154][XCUITestDriver@b4fc] Got response with status 200: {"value":{"ELEMENT":"A4000000-0000-0000-9FD8-000000000000","element-6066-11e4-a52e-4f735466cecf":"A4000000-0000-0000-9FD8-000000000000"},"sessionId":"F54E003A-2B77-4CF6-BC89-DBF6654B6818"}
-2024-10-08 11:52:12:361 [2d099154][XCUITestDriver@b4fc] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"A4000000-0000-0000-9FD8-000000000000","ELEMENT":"A4000000-0000-0000-9FD8-000000000000"}
-2024-10-08 11:52:12:361 [2d099154][HTTP] <-- POST /session/2d099154-5268-4ccb-aebd-3c7e0e175966/element 200 131 ms - 137 
-2024-10-08 11:52:12:363 [2d099154][HTTP] --> POST /session/2d099154-5268-4ccb-aebd-3c7e0e175966/element/A4000000-0000-0000-9FD8-000000000000/click {"id":"A4000000-0000-0000-9FD8-000000000000"}
-2024-10-08 11:52:12:363 [2d099154][XCUITestDriver@b4fc] Driver proxy active, passing request on via HTTP proxy
-2024-10-08 11:52:12:363 [2d099154][XCUITestDriver@b4fc] Executing command 'proxyReqRes'
-2024-10-08 11:52:12:364 [2d099154][XCUITestDriver@b4fc] Matched '/session/2d099154-5268-4ccb-aebd-3c7e0e175966/element/A4000000-0000-0000-9FD8-000000000000/click' to command name 'click'
-2024-10-08 11:52:12:364 [2d099154][XCUITestDriver@b4fc] Proxying [POST /session/2d099154-5268-4ccb-aebd-3c7e0e175966/element/A4000000-0000-0000-9FD8-000000000000/click] to [POST http://127.0.0.1:8100/session/F54E003A-2B77-4CF6-BC89-DBF6654B6818/element/A4000000-0000-0000-9FD8-000000000000/click] with body: {"id":"A4000000-0000-0000-9FD8-000000000000"}
-2024-10-08 11:52:13:139 [2d099154][XCUITestDriver@b4fc] Got response with status 200: {"value":null,"sessionId":"F54E003A-2B77-4CF6-BC89-DBF6654B6818"}
-2024-10-08 11:52:13:140 [2d099154][XCUITestDriver@b4fc] Replacing sessionId F54E003A-2B77-4CF6-BC89-DBF6654B6818 with 2d099154-5268-4ccb-aebd-3c7e0e175966
-2024-10-08 11:52:13:142 [2d099154][HTTP] <-- POST /session/2d099154-5268-4ccb-aebd-3c7e0e175966/element/A4000000-0000-0000-9FD8-000000000000/click 200 778 ms - 65 
-2024-10-08 11:52:13:154 [2d099154][HTTP] --> DELETE /session/2d099154-5268-4ccb-aebd-3c7e0e175966 {}
-2024-10-08 11:52:13:154 [2d099154][XCUITestDriver@b4fc] Calling AppiumDriver.deleteSession() with args: ["2d099154-5268-4ccb-aebd-3c7e0e175966"]
-2024-10-08 11:52:13:155 [2d099154][AppiumDriver@96e4] Event 'quitSessionRequested' logged at 1728388333154 (22:52:13 GMT+1100 (Australian Eastern Daylight Time))
-2024-10-08 11:52:13:155 [2d099154][AppiumDriver@96e4] Removing session 2d099154-5268-4ccb-aebd-3c7e0e175966 from our master session list
-2024-10-08 11:52:13:156 [2d099154][XCUITestDriver@b4fc] Matched '/session/2d099154-5268-4ccb-aebd-3c7e0e175966' to command name 'deleteSession'
-2024-10-08 11:52:13:156 [2d099154][XCUITestDriver@b4fc] Proxying [DELETE /session/2d099154-5268-4ccb-aebd-3c7e0e175966] to [DELETE http://127.0.0.1:8100/session/F54E003A-2B77-4CF6-BC89-DBF6654B6818] with no body
-2024-10-08 11:52:14:220 [2d099154][XCUITestDriver@b4fc] Got response with status 200: {"value":null,"sessionId":null}
-2024-10-08 11:52:14:220 [2d099154][DevCon Factory] Releasing connections for D22BF542-F792-422A-9BFF-DEF57F3003FC device on any port number
-2024-10-08 11:52:14:221 [2d099154][DevCon Factory] Found cached connections to release: ["D22BF542-F792-422A-9BFF-DEF57F3003FC:8100"]
-2024-10-08 11:52:14:221 [2d099154][DevCon Factory] Cached connections count: 0
-2024-10-08 11:52:14:221 [2d099154][XCUITestDriver@b4fc] Not clearing log files. Use `clearSystemFiles` capability to turn on.
-2024-10-08 11:52:14:222 [2d099154][XCUITestDriver@b4fc] Stopping iOS log capture
-2024-10-08 11:52:14:235 [2d099154][AppiumDriver@96e4] Event 'quitSessionFinished' logged at 1728388334235 (22:52:14 GMT+1100 (Australian Eastern Daylight Time))
-2024-10-08 11:52:14:236 [2d099154][AppiumDriver@96e4] Received response: null
-2024-10-08 11:52:14:236 [2d099154][AppiumDriver@96e4] But deleting session, so not returning
-2024-10-08 11:52:14:236 [2d099154][AppiumDriver@96e4] Responding to client with driver.deleteSession() result: null
-2024-10-08 11:52:14:237 [2d099154][HTTP] <-- DELETE /session/2d099154-5268-4ccb-aebd-3c7e0e175966 200 1082 ms - 14 
-2024-10-08 11:52:14:255 [Appium] Received SIGTERM - shutting down
-2024-10-08 11:52:14:256 [AppiumDriver@96e4] There are no active sessions for cleanup
-2024-10-08 11:52:14:261 uncaughtException: write EPIPE
+2024-10-09 10:10:08:640 [736e6d96][XCUITestDriver@82be] Reset: failed to terminate Simulator application with id "com.example.apple-samplecode.UICatalog"
+2024-10-09 10:10:08:640 [736e6d96][XCUITestDriver@82be] Not scrubbing third party app in anticipation of uninstall
+2024-10-09 10:10:08:640 [736e6d96][XCUITestDriver@82be] Event 'resetComplete' logged at 1728468608640 (21:10:08 GMT+1100 (Australian Eastern Daylight Time))
+2024-10-09 10:10:08:640 [736e6d96][XCUITestDriver@82be] Using WDA path: '/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+2024-10-09 10:10:08:640 [736e6d96][XCUITestDriver@82be] Using WDA agent: '/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+2024-10-09 10:10:08:714 [736e6d96][XCUITestDriver@82be] Starting log capture for iOS Simulator with udid 'D22BF542-F792-422A-9BFF-DEF57F3003FC' using simctl
+2024-10-09 10:10:08:907 [736e6d96][XCUITestDriver@82be] Event 'logCaptureStarted' logged at 1728468608907 (21:10:08 GMT+1100 (Australian Eastern Daylight Time))
+2024-10-09 10:10:08:907 [736e6d96][XCUITestDriver@82be] Setting up simulator
+2024-10-09 10:10:08:908 [736e6d96][XCUITestDriver@82be] Setting preferences of D22BF542-F792-422A-9BFF-DEF57F3003FC Simulator to {"ConnectHardwareKeyboard":false}
+2024-10-09 10:10:08:908 [736e6d96][XCUITestDriver@82be] Setting common Simulator preferences to {"RotateWindowWhenSignaledByGuest":true,"StartLastDeviceOnLaunch":false,"DetachOnWindowClose":false,"AttachBootedOnStart":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false}
+2024-10-09 10:10:08:932 [736e6d96][XCUITestDriver@82be] Updated D22BF542-F792-422A-9BFF-DEF57F3003FC Simulator preferences at '/Users/aashok/Library/Preferences/com.apple.iphonesimulator.plist' with {"RotateWindowWhenSignaledByGuest":true,"StartLastDeviceOnLaunch":false,"DetachOnWindowClose":false,"AttachBootedOnStart":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false,"DevicePreferences":{"D22BF542-F792-422A-9BFF-DEF57F3003FC":{"SimulatorExternalDisplay":2114,"ConnectHardwareKeyboard":false,"ChromeTint":"","SimulatorWindowOrientation":"Portrait","SimulatorWindowRotationAngle":0,"SimulatorWindowGeometry":{"88602E02-B6B1-4624-BD69-A297BB056692":{"WindowCenter":"{812, 467.5}","WindowScale":0.9707207207207207}}}}}
+2024-10-09 10:10:09:023 [736e6d96][XCUITestDriver@82be] Got Simulator UI client PID: 760
+2024-10-09 10:10:09:023 [736e6d96][XCUITestDriver@82be] Both Simulator with UDID 'D22BF542-F792-422A-9BFF-DEF57F3003FC' and the UI client are currently running
+2024-10-09 10:10:09:024 [736e6d96][XCUITestDriver@82be] Event 'simStarted' logged at 1728468609024 (21:10:09 GMT+1100 (Australian Eastern Daylight Time))
+2024-10-09 10:10:09:024 [736e6d96][XCUITestDriver@82be] Verifying application platform
+2024-10-09 10:10:09:024 [736e6d96][XCUITestDriver@82be] CFBundleSupportedPlatforms: ["iPhoneSimulator"]
+2024-10-09 10:10:09:025 [736e6d96][XCUITestDriver@82be] CFBundleExecutable: "UIKitCatalog"
+2024-10-09 10:10:09:028 [736e6d96][XCUITestDriver@82be] /Users/aashok/IdeaProjects/appium_learnings/src/test/resources/UIKitCatalog.app/UIKitCatalog: Mach-O 64-bit executable arm64
+2024-10-09 10:10:09:177 [736e6d96][XCUITestDriver@82be] App 'com.example.apple-samplecode.UICatalog' is already installed
+2024-10-09 10:10:09:271 [736e6d96][XCUITestDriver@82be] Reset requested. Removing app with id 'com.example.apple-samplecode.UICatalog' from the device
+2024-10-09 10:10:09:371 [736e6d96][XCUITestDriver@82be] Parsed BUILD_DIR configuration value: '/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/build'
+2024-10-09 10:10:09:371 [736e6d96][XCUITestDriver@82be] Got derived data root: '/Users/aashok/node_modules/appium-xcuitest-driver/node_modules'
+2024-10-09 10:10:09:399 [736e6d96][XCUITestDriver@82be] Installing '//Users//aashok//IdeaProjects//appium_learnings//src//test//resources//UIKitCatalog.app' on Simulator with UUID 'D22BF542-F792-422A-9BFF-DEF57F3003FC'...
+2024-10-09 10:10:09:626 [736e6d96][XCUITestDriver@82be] The app has been successfully installed in 227ms
+2024-10-09 10:10:09:626 [736e6d96][XCUITestDriver@82be] Event 'appInstalled' logged at 1728468609626 (21:10:09 GMT+1100 (Australian Eastern Daylight Time))
+2024-10-09 10:10:09:666 [736e6d96][XCUITestDriver@82be] No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
+2024-10-09 10:10:09:667 [736e6d96][DevCon Factory] Requesting connection for device D22BF542-F792-422A-9BFF-DEF57F3003FC on local port 8100
+2024-10-09 10:10:09:667 [736e6d96][DevCon Factory] Cached connections count: 0
+2024-10-09 10:10:09:667 [736e6d96][DevCon Factory] Successfully requested the connection for D22BF542-F792-422A-9BFF-DEF57F3003FC:8100
+2024-10-09 10:10:09:667 [736e6d96][XCUITestDriver@82be] Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+2024-10-09 10:10:09:668 [736e6d96][WD Proxy] Matched '/status' to command name 'getStatus'
+2024-10-09 10:10:09:668 [736e6d96][WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+2024-10-09 10:10:09:675 [736e6d96][WD Proxy] Got response with status 200: {"value":{"build":{"upgradedAt":"1728269054421","version":"8.9.2","time":"Oct  7 2024 14:18:58","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"},"os":{"testmanagerdVersion":65535,"name":"iOS","sdkVersion":"18.0","version":"18.0"},"device":"iphone","ios":{"simulatorVersion":"18.0","ip":"192.168.0.27"},"message":"WebDriverAgent is ready to accept commands","state":"success","ready":true},"sessionId":null}
+2024-10-09 10:10:09:677 [736e6d96][XCUITestDriver@82be] Upgrade timestamp of the currently bundled WDA: 1728269054421
+2024-10-09 10:10:09:677 [736e6d96][XCUITestDriver@82be] Upgrade timestamp of the WDA on the device: 1728269054421
+2024-10-09 10:10:09:677 [736e6d96][XCUITestDriver@82be] Will reuse previously cached WDA instance at 'http://127.0.0.1:8100/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 8100 if this is an undesired behavior.
+2024-10-09 10:10:09:677 [736e6d96][XCUITestDriver@82be] Trying to start WebDriverAgent 2 times with 10000ms interval
+2024-10-09 10:10:09:677 [736e6d96][XCUITestDriver@82be] These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+2024-10-09 10:10:09:678 [736e6d96][XCUITestDriver@82be] Event 'wdaStartAttempted' logged at 1728468609678 (21:10:09 GMT+1100 (Australian Eastern Daylight Time))
+2024-10-09 10:10:09:678 [736e6d96][XCUITestDriver@82be] Using provided WebdriverAgent at 'http://127.0.0.1:8100/'
+2024-10-09 10:10:09:678 [736e6d96][WD Proxy] Matched '/status' to command name 'getStatus'
+2024-10-09 10:10:09:678 [736e6d96][WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+2024-10-09 10:10:09:679 [736e6d96][WD Proxy] Got response with status 200: {"value":{"build":{"upgradedAt":"1728269054421","version":"8.9.2","time":"Oct  7 2024 14:18:58","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"},"os":{"testmanagerdVersion":65535,"name":"iOS","sdkVersion":"18.0","version":"18.0"},"device":"iphone","ios":{"simulatorVersion":"18.0","ip":"192.168.0.27"},"message":"WebDriverAgent is ready to accept commands","state":"success","ready":true},"sessionId":null}
+2024-10-09 10:10:09:680 [736e6d96][XCUITestDriver@82be] Event 'wdaSessionAttempted' logged at 1728468609680 (21:10:09 GMT+1100 (Australian Eastern Daylight Time))
+2024-10-09 10:10:09:680 [736e6d96][XCUITestDriver@82be] Sending createSession command to WDA
+2024-10-09 10:10:09:680 [736e6d96][XCUITestDriver@82be] Matched '/session' to command name 'createSession'
+2024-10-09 10:10:09:681 [736e6d96][XCUITestDriver@82be] Proxying [POST /session] to [POST http://127.0.0.1:8100/session] with body: {"capabilities":{"firstMatch":[{"bundleId":"com.example.apple-samplecode.UICatalog","arguments":[],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true,"shouldTerminateApp":true,"forceAppLaunch":true,"useNativeCachingStrategy":true,"forceSimulatorSoftwareKeyboardPresence":true}],"alwaysMatch":{}}}
+2024-10-09 10:10:11:258 [736e6d96][XCUITestDriver@82be] Got response with status 200: {"value":{"sessionId":"C35765B2-8C04-4A24-A42B-F396529112C5","capabilities":{"sdkVersion":"18.0","device":"iphone"}},"sessionId":"C35765B2-8C04-4A24-A42B-F396529112C5"}
+2024-10-09 10:10:11:258 [736e6d96][XCUITestDriver@82be] Determined the downstream protocol as 'W3C'
+2024-10-09 10:10:11:259 [736e6d96][XCUITestDriver@82be] WDA session startup took 1579ms
+2024-10-09 10:10:11:259 [736e6d96][XCUITestDriver@82be] Event 'wdaSessionStarted' logged at 1728468611259 (21:10:11 GMT+1100 (Australian Eastern Daylight Time))
+2024-10-09 10:10:11:259 [736e6d96][XCUITestDriver@82be] Event 'wdaStarted' logged at 1728468611259 (21:10:11 GMT+1100 (Australian Eastern Daylight Time))
+2024-10-09 10:10:11:260 [736e6d96][BaseDriver] The value of 'elementResponseAttributes' setting did not change. Skipping the update for it
+2024-10-09 10:10:11:260 [736e6d96][BaseDriver] The value of 'shouldUseCompactResponses' setting did not change. Skipping the update for it
+2024-10-09 10:10:11:261 [736e6d96][AppiumDriver@f12f] New XCUITestDriver session created successfully, session 736e6d96-4180-417d-88f7-0120cd2bc6cc added to master session list
+2024-10-09 10:10:11:261 [736e6d96][AppiumDriver@f12f] Event 'newSessionStarted' logged at 1728468611261 (21:10:11 GMT+1100 (Australian Eastern Daylight Time))
+2024-10-09 10:10:11:261 [736e6d96][XCUITestDriver@82be] Cached the protocol value 'W3C' for the new session 736e6d96-4180-417d-88f7-0120cd2bc6cc
+2024-10-09 10:10:11:262 [736e6d96][XCUITestDriver@82be] Responding to client with driver.createSession() result: {"capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"IOS","app":"//Users//aashok//IdeaProjects//appium_learnings//src//test//resources//UIKitCatalog.app","automationName":"XCuiTest","deviceName":"iPhone 16","platformVersion":"18.0","wdaLaunchTimeout":20000,"udid":"D22BF542-F792-422A-9BFF-DEF57F3003FC"}}
+2024-10-09 10:10:11:263 [736e6d96][HTTP] <-- POST /session 200 2838 ms - 541 
+2024-10-09 10:10:11:313 [736e6d96][HTTP] --> POST /session/736e6d96-4180-417d-88f7-0120cd2bc6cc/timeouts {"implicit":20000}
+2024-10-09 10:10:11:314 [736e6d96][XCUITestDriver@82be] Calling AppiumDriver.timeouts() with args: [null,null,null,null,20000,"736e6d96-4180-417d-88f7-0120cd2bc6cc"]
+2024-10-09 10:10:11:314 [736e6d96][XCUITestDriver@82be] Executing command 'timeouts'
+2024-10-09 10:10:11:314 [736e6d96][XCUITestDriver@82be] W3C timeout argument: {"implicit":20000}}
+2024-10-09 10:10:11:314 [736e6d96][XCUITestDriver@82be] Set implicit wait to 20000ms
+2024-10-09 10:10:11:315 [736e6d96][XCUITestDriver@82be] Responding to client with driver.timeouts() result: null
+2024-10-09 10:10:11:315 [736e6d96][HTTP] <-- POST /session/736e6d96-4180-417d-88f7-0120cd2bc6cc/timeouts 200 2 ms - 14 
+2024-10-09 10:10:11:329 [736e6d96][HTTP] --> POST /session/736e6d96-4180-417d-88f7-0120cd2bc6cc/element {"using":"id","value":"Picker View"}
+2024-10-09 10:10:11:330 [736e6d96][XCUITestDriver@82be] Calling AppiumDriver.findElement() with args: ["id","Picker View","736e6d96-4180-417d-88f7-0120cd2bc6cc"]
+2024-10-09 10:10:11:330 [736e6d96][XCUITestDriver@82be] Executing command 'findElement'
+2024-10-09 10:10:11:330 [736e6d96][XCUITestDriver@82be] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2024-10-09 10:10:11:330 [736e6d96][XCUITestDriver@82be] Waiting up to 20000 ms for condition
+2024-10-09 10:10:11:335 [736e6d96][XCUITestDriver@82be] Matched '/element' to command name 'findElement'
+2024-10-09 10:10:11:335 [736e6d96][XCUITestDriver@82be] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/C35765B2-8C04-4A24-A42B-F396529112C5/element] with body: {"using":"id","value":"Picker View"}
+2024-10-09 10:10:11:490 [736e6d96][XCUITestDriver@82be] Got response with status 200: {"value":{"ELEMENT":"49000000-0000-0000-4A7C-010000000000","element-6066-11e4-a52e-4f735466cecf":"49000000-0000-0000-4A7C-010000000000"},"sessionId":"C35765B2-8C04-4A24-A42B-F396529112C5"}
+2024-10-09 10:10:11:491 [736e6d96][XCUITestDriver@82be] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"49000000-0000-0000-4A7C-010000000000","ELEMENT":"49000000-0000-0000-4A7C-010000000000"}
+2024-10-09 10:10:11:491 [736e6d96][HTTP] <-- POST /session/736e6d96-4180-417d-88f7-0120cd2bc6cc/element 200 162 ms - 137 
+2024-10-09 10:10:11:495 [736e6d96][HTTP] --> POST /session/736e6d96-4180-417d-88f7-0120cd2bc6cc/element/49000000-0000-0000-4A7C-010000000000/click {"id":"49000000-0000-0000-4A7C-010000000000"}
+2024-10-09 10:10:11:496 [736e6d96][XCUITestDriver@82be] Driver proxy active, passing request on via HTTP proxy
+2024-10-09 10:10:11:496 [736e6d96][XCUITestDriver@82be] Executing command 'proxyReqRes'
+2024-10-09 10:10:11:497 [736e6d96][XCUITestDriver@82be] Matched '/session/736e6d96-4180-417d-88f7-0120cd2bc6cc/element/49000000-0000-0000-4A7C-010000000000/click' to command name 'click'
+2024-10-09 10:10:11:497 [736e6d96][XCUITestDriver@82be] Proxying [POST /session/736e6d96-4180-417d-88f7-0120cd2bc6cc/element/49000000-0000-0000-4A7C-010000000000/click] to [POST http://127.0.0.1:8100/session/C35765B2-8C04-4A24-A42B-F396529112C5/element/49000000-0000-0000-4A7C-010000000000/click] with body: {"id":"49000000-0000-0000-4A7C-010000000000"}
+2024-10-09 10:10:12:483 [736e6d96][XCUITestDriver@82be] Got response with status 200: {"value":null,"sessionId":"C35765B2-8C04-4A24-A42B-F396529112C5"}
+2024-10-09 10:10:12:485 [736e6d96][XCUITestDriver@82be] Replacing sessionId C35765B2-8C04-4A24-A42B-F396529112C5 with 736e6d96-4180-417d-88f7-0120cd2bc6cc
+2024-10-09 10:10:12:487 [736e6d96][HTTP] <-- POST /session/736e6d96-4180-417d-88f7-0120cd2bc6cc/element/49000000-0000-0000-4A7C-010000000000/click 200 991 ms - 65 
+2024-10-09 10:10:12:492 [736e6d96][HTTP] --> POST /session/736e6d96-4180-417d-88f7-0120cd2bc6cc/element {"using":"accessibility id","value":"Red color component value"}
+2024-10-09 10:10:12:493 [736e6d96][XCUITestDriver@82be] Calling AppiumDriver.findElement() with args: ["accessibility id","Red color component value","736e6d96-4180-417d-88f7-0120cd2bc6cc"]
+2024-10-09 10:10:12:493 [736e6d96][XCUITestDriver@82be] Executing command 'findElement'
+2024-10-09 10:10:12:493 [736e6d96][XCUITestDriver@82be] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2024-10-09 10:10:12:493 [736e6d96][XCUITestDriver@82be] Waiting up to 20000 ms for condition
+2024-10-09 10:10:12:496 [736e6d96][XCUITestDriver@82be] Matched '/element' to command name 'findElement'
+2024-10-09 10:10:12:497 [736e6d96][XCUITestDriver@82be] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/C35765B2-8C04-4A24-A42B-F396529112C5/element] with body: {"using":"accessibility id","value":"Red color component value"}
+2024-10-09 10:10:12:642 [736e6d96][XCUITestDriver@82be] Got response with status 200: {"value":{"ELEMENT":"A9000000-0000-0000-4A7C-010000000000","element-6066-11e4-a52e-4f735466cecf":"A9000000-0000-0000-4A7C-010000000000"},"sessionId":"C35765B2-8C04-4A24-A42B-F396529112C5"}
+2024-10-09 10:10:12:642 [736e6d96][XCUITestDriver@82be] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"A9000000-0000-0000-4A7C-010000000000","ELEMENT":"A9000000-0000-0000-4A7C-010000000000"}
+2024-10-09 10:10:12:642 [736e6d96][HTTP] <-- POST /session/736e6d96-4180-417d-88f7-0120cd2bc6cc/element 200 150 ms - 137 
+2024-10-09 10:10:12:646 [736e6d96][HTTP] --> POST /session/736e6d96-4180-417d-88f7-0120cd2bc6cc/element/A9000000-0000-0000-4A7C-010000000000/value {"id":"A9000000-0000-0000-4A7C-010000000000","text":"80","value":["8","0"]}
+2024-10-09 10:10:12:647 [736e6d96][XCUITestDriver@82be] Calling AppiumDriver.setValue() with args: [["8","0"],"A9000000-0000-0000-4A7C-010000000000","736e6d96-4180-417d-88f7-0120cd2bc6cc"]
+2024-10-09 10:10:12:647 [736e6d96][XCUITestDriver@82be] Executing command 'setValue'
+2024-10-09 10:10:12:648 [736e6d96][XCUITestDriver@82be] Matched '/element/A9000000-0000-0000-4A7C-010000000000/value' to command name 'setValue'
+2024-10-09 10:10:12:648 [736e6d96][XCUITestDriver@82be] Added 'text' property "80" to 'setValue' request body
+2024-10-09 10:10:12:648 [736e6d96][XCUITestDriver@82be] Proxying [POST /element/A9000000-0000-0000-4A7C-010000000000/value] to [POST http://127.0.0.1:8100/session/C35765B2-8C04-4A24-A42B-F396529112C5/element/A9000000-0000-0000-4A7C-010000000000/value] with body: {"value":["8","0"],"text":"80"}
+2024-10-09 10:10:12:720 [736e6d96][XCUITestDriver@82be] Got response with status 200: {"value":null,"sessionId":"C35765B2-8C04-4A24-A42B-F396529112C5"}
+2024-10-09 10:10:12:720 [736e6d96][XCUITestDriver@82be] Responding to client with driver.setValue() result: null
+2024-10-09 10:10:12:720 [736e6d96][HTTP] <-- POST /session/736e6d96-4180-417d-88f7-0120cd2bc6cc/element/A9000000-0000-0000-4A7C-010000000000/value 200 74 ms - 14 
+2024-10-09 10:10:12:722 [736e6d96][HTTP] --> POST /session/736e6d96-4180-417d-88f7-0120cd2bc6cc/element {"using":"accessibility id","value":"Green color component value"}
+2024-10-09 10:10:12:722 [736e6d96][XCUITestDriver@82be] Calling AppiumDriver.findElement() with args: ["accessibility id","Green color component value","736e6d96-4180-417d-88f7-0120cd2bc6cc"]
+2024-10-09 10:10:12:722 [736e6d96][XCUITestDriver@82be] Executing command 'findElement'
+2024-10-09 10:10:12:722 [736e6d96][XCUITestDriver@82be] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2024-10-09 10:10:12:722 [736e6d96][XCUITestDriver@82be] Waiting up to 20000 ms for condition
+2024-10-09 10:10:12:723 [736e6d96][XCUITestDriver@82be] Matched '/element' to command name 'findElement'
+2024-10-09 10:10:12:723 [736e6d96][XCUITestDriver@82be] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/C35765B2-8C04-4A24-A42B-F396529112C5/element] with body: {"using":"accessibility id","value":"Green color component value"}
+2024-10-09 10:10:12:793 [736e6d96][XCUITestDriver@82be] Got response with status 200: {"value":{"ELEMENT":"AA000000-0000-0000-4A7C-010000000000","element-6066-11e4-a52e-4f735466cecf":"AA000000-0000-0000-4A7C-010000000000"},"sessionId":"C35765B2-8C04-4A24-A42B-F396529112C5"}
+2024-10-09 10:10:12:793 [736e6d96][XCUITestDriver@82be] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"AA000000-0000-0000-4A7C-010000000000","ELEMENT":"AA000000-0000-0000-4A7C-010000000000"}
+2024-10-09 10:10:12:793 [736e6d96][HTTP] <-- POST /session/736e6d96-4180-417d-88f7-0120cd2bc6cc/element 200 71 ms - 137 
+2024-10-09 10:10:12:795 [736e6d96][HTTP] --> POST /session/736e6d96-4180-417d-88f7-0120cd2bc6cc/element/AA000000-0000-0000-4A7C-010000000000/value {"id":"AA000000-0000-0000-4A7C-010000000000","text":"220","value":["2","2","0"]}
+2024-10-09 10:10:12:795 [736e6d96][XCUITestDriver@82be] Calling AppiumDriver.setValue() with args: [["2","2","0"],"AA000000-0000-0000-4A7C-010000000000","736e6d96-4180-417d-88f7-0120cd2bc6cc"]
+2024-10-09 10:10:12:796 [736e6d96][XCUITestDriver@82be] Executing command 'setValue'
+2024-10-09 10:10:12:796 [736e6d96][XCUITestDriver@82be] Matched '/element/AA000000-0000-0000-4A7C-010000000000/value' to command name 'setValue'
+2024-10-09 10:10:12:796 [736e6d96][XCUITestDriver@82be] Added 'text' property "220" to 'setValue' request body
+2024-10-09 10:10:12:796 [736e6d96][XCUITestDriver@82be] Proxying [POST /element/AA000000-0000-0000-4A7C-010000000000/value] to [POST http://127.0.0.1:8100/session/C35765B2-8C04-4A24-A42B-F396529112C5/element/AA000000-0000-0000-4A7C-010000000000/value] with body: {"value":["2","2","0"],"text":"220"}
+2024-10-09 10:10:12:865 [736e6d96][XCUITestDriver@82be] Got response with status 200: {"value":null,"sessionId":"C35765B2-8C04-4A24-A42B-F396529112C5"}
+2024-10-09 10:10:12:865 [736e6d96][XCUITestDriver@82be] Responding to client with driver.setValue() result: null
+2024-10-09 10:10:12:865 [736e6d96][HTTP] <-- POST /session/736e6d96-4180-417d-88f7-0120cd2bc6cc/element/AA000000-0000-0000-4A7C-010000000000/value 200 70 ms - 14 
+2024-10-09 10:10:12:867 [736e6d96][HTTP] --> POST /session/736e6d96-4180-417d-88f7-0120cd2bc6cc/element {"using":"-ios predicate string","value":"name == 'Blue color component value'"}
+2024-10-09 10:10:12:867 [736e6d96][XCUITestDriver@82be] Calling AppiumDriver.findElement() with args: ["-ios predicate string","name == 'Blue color component value'","736e6d96-4180-417d-88f7-0120cd2bc6cc"]
+2024-10-09 10:10:12:868 [736e6d96][XCUITestDriver@82be] Executing command 'findElement'
+2024-10-09 10:10:12:868 [736e6d96][XCUITestDriver@82be] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2024-10-09 10:10:12:868 [736e6d96][XCUITestDriver@82be] Waiting up to 20000 ms for condition
+2024-10-09 10:10:12:868 [736e6d96][XCUITestDriver@82be] Matched '/element' to command name 'findElement'
+2024-10-09 10:10:12:868 [736e6d96][XCUITestDriver@82be] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/C35765B2-8C04-4A24-A42B-F396529112C5/element] with body: {"using":"predicate string","value":"name == 'Blue color component value'"}
+2024-10-09 10:10:12:946 [736e6d96][XCUITestDriver@82be] Got response with status 200: {"value":{"ELEMENT":"AB000000-0000-0000-4A7C-010000000000","element-6066-11e4-a52e-4f735466cecf":"AB000000-0000-0000-4A7C-010000000000"},"sessionId":"C35765B2-8C04-4A24-A42B-F396529112C5"}
+2024-10-09 10:10:12:946 [736e6d96][XCUITestDriver@82be] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"AB000000-0000-0000-4A7C-010000000000","ELEMENT":"AB000000-0000-0000-4A7C-010000000000"}
+2024-10-09 10:10:12:947 [736e6d96][HTTP] <-- POST /session/736e6d96-4180-417d-88f7-0120cd2bc6cc/element 200 79 ms - 137 
+2024-10-09 10:10:12:949 [736e6d96][HTTP] --> POST /session/736e6d96-4180-417d-88f7-0120cd2bc6cc/element/AB000000-0000-0000-4A7C-010000000000/value {"id":"AB000000-0000-0000-4A7C-010000000000","text":"105","value":["1","0","5"]}
+2024-10-09 10:10:12:949 [736e6d96][XCUITestDriver@82be] Calling AppiumDriver.setValue() with args: [["1","0","5"],"AB000000-0000-0000-4A7C-010000000000","736e6d96-4180-417d-88f7-0120cd2bc6cc"]
+2024-10-09 10:10:12:949 [736e6d96][XCUITestDriver@82be] Executing command 'setValue'
+2024-10-09 10:10:12:950 [736e6d96][XCUITestDriver@82be] Matched '/element/AB000000-0000-0000-4A7C-010000000000/value' to command name 'setValue'
+2024-10-09 10:10:12:950 [736e6d96][XCUITestDriver@82be] Added 'text' property "105" to 'setValue' request body
+2024-10-09 10:10:12:950 [736e6d96][XCUITestDriver@82be] Proxying [POST /element/AB000000-0000-0000-4A7C-010000000000/value] to [POST http://127.0.0.1:8100/session/C35765B2-8C04-4A24-A42B-F396529112C5/element/AB000000-0000-0000-4A7C-010000000000/value] with body: {"value":["1","0","5"],"text":"105"}
+2024-10-09 10:10:13:020 [736e6d96][XCUITestDriver@82be] Got response with status 200: {"value":null,"sessionId":"C35765B2-8C04-4A24-A42B-F396529112C5"}
+2024-10-09 10:10:13:021 [736e6d96][XCUITestDriver@82be] Responding to client with driver.setValue() result: null
+2024-10-09 10:10:13:021 [736e6d96][HTTP] <-- POST /session/736e6d96-4180-417d-88f7-0120cd2bc6cc/element/AB000000-0000-0000-4A7C-010000000000/value 200 72 ms - 14 
+2024-10-09 10:10:13:022 [736e6d96][HTTP] --> POST /session/736e6d96-4180-417d-88f7-0120cd2bc6cc/element {"using":"-ios predicate string","value":"label == 'Blue color component value'"}
+2024-10-09 10:10:13:023 [736e6d96][XCUITestDriver@82be] Calling AppiumDriver.findElement() with args: ["-ios predicate string","label == 'Blue color component value'","736e6d96-4180-417d-88f7-0120cd2bc6cc"]
+2024-10-09 10:10:13:023 [736e6d96][XCUITestDriver@82be] Executing command 'findElement'
+2024-10-09 10:10:13:023 [736e6d96][XCUITestDriver@82be] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2024-10-09 10:10:13:023 [736e6d96][XCUITestDriver@82be] Waiting up to 20000 ms for condition
+2024-10-09 10:10:13:023 [736e6d96][XCUITestDriver@82be] Matched '/element' to command name 'findElement'
+2024-10-09 10:10:13:023 [736e6d96][XCUITestDriver@82be] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/C35765B2-8C04-4A24-A42B-F396529112C5/element] with body: {"using":"predicate string","value":"label == 'Blue color component value'"}
+2024-10-09 10:10:13:091 [736e6d96][XCUITestDriver@82be] Got response with status 200: {"value":{"ELEMENT":"AB000000-0000-0000-4A7C-010000000000","element-6066-11e4-a52e-4f735466cecf":"AB000000-0000-0000-4A7C-010000000000"},"sessionId":"C35765B2-8C04-4A24-A42B-F396529112C5"}
+2024-10-09 10:10:13:091 [736e6d96][XCUITestDriver@82be] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"AB000000-0000-0000-4A7C-010000000000","ELEMENT":"AB000000-0000-0000-4A7C-010000000000"}
+2024-10-09 10:10:13:092 [736e6d96][HTTP] <-- POST /session/736e6d96-4180-417d-88f7-0120cd2bc6cc/element 200 69 ms - 137 
+2024-10-09 10:10:13:094 [736e6d96][HTTP] --> GET /session/736e6d96-4180-417d-88f7-0120cd2bc6cc/element/AB000000-0000-0000-4A7C-010000000000/text {}
+2024-10-09 10:10:13:094 [736e6d96][XCUITestDriver@82be] Driver proxy active, passing request on via HTTP proxy
+2024-10-09 10:10:13:095 [736e6d96][XCUITestDriver@82be] Executing command 'proxyReqRes'
+2024-10-09 10:10:13:095 [736e6d96][XCUITestDriver@82be] Matched '/session/736e6d96-4180-417d-88f7-0120cd2bc6cc/element/AB000000-0000-0000-4A7C-010000000000/text' to command name 'getText'
+2024-10-09 10:10:13:095 [736e6d96][XCUITestDriver@82be] Proxying [GET /session/736e6d96-4180-417d-88f7-0120cd2bc6cc/element/AB000000-0000-0000-4A7C-010000000000/text] to [GET http://127.0.0.1:8100/session/C35765B2-8C04-4A24-A42B-F396529112C5/element/AB000000-0000-0000-4A7C-010000000000/text] with no body
+2024-10-09 10:10:13:123 [736e6d96][XCUITestDriver@82be] Got response with status 200: {"value":"105","sessionId":"C35765B2-8C04-4A24-A42B-F396529112C5"}
+2024-10-09 10:10:13:123 [736e6d96][XCUITestDriver@82be] Replacing sessionId C35765B2-8C04-4A24-A42B-F396529112C5 with 736e6d96-4180-417d-88f7-0120cd2bc6cc
+2024-10-09 10:10:13:123 [736e6d96][HTTP] <-- GET /session/736e6d96-4180-417d-88f7-0120cd2bc6cc/element/AB000000-0000-0000-4A7C-010000000000/text 200 28 ms - 66 
+2024-10-09 10:10:13:127 [736e6d96][HTTP] --> DELETE /session/736e6d96-4180-417d-88f7-0120cd2bc6cc {}
+2024-10-09 10:10:13:127 [736e6d96][XCUITestDriver@82be] Calling AppiumDriver.deleteSession() with args: ["736e6d96-4180-417d-88f7-0120cd2bc6cc"]
+2024-10-09 10:10:13:127 [736e6d96][AppiumDriver@f12f] Event 'quitSessionRequested' logged at 1728468613127 (21:10:13 GMT+1100 (Australian Eastern Daylight Time))
+2024-10-09 10:10:13:127 [736e6d96][AppiumDriver@f12f] Removing session 736e6d96-4180-417d-88f7-0120cd2bc6cc from our master session list
+2024-10-09 10:10:13:128 [736e6d96][XCUITestDriver@82be] Matched '/session/736e6d96-4180-417d-88f7-0120cd2bc6cc' to command name 'deleteSession'
+2024-10-09 10:10:13:128 [736e6d96][XCUITestDriver@82be] Proxying [DELETE /session/736e6d96-4180-417d-88f7-0120cd2bc6cc] to [DELETE http://127.0.0.1:8100/session/C35765B2-8C04-4A24-A42B-F396529112C5] with no body
+2024-10-09 10:10:14:171 [736e6d96][XCUITestDriver@82be] Got response with status 200: {"value":null,"sessionId":null}
+2024-10-09 10:10:14:172 [736e6d96][DevCon Factory] Releasing connections for D22BF542-F792-422A-9BFF-DEF57F3003FC device on any port number
+2024-10-09 10:10:14:172 [736e6d96][DevCon Factory] Found cached connections to release: ["D22BF542-F792-422A-9BFF-DEF57F3003FC:8100"]
+2024-10-09 10:10:14:173 [736e6d96][DevCon Factory] Cached connections count: 0
+2024-10-09 10:10:14:173 [736e6d96][XCUITestDriver@82be] Not clearing log files. Use `clearSystemFiles` capability to turn on.
+2024-10-09 10:10:14:173 [736e6d96][XCUITestDriver@82be] Stopping iOS log capture
+2024-10-09 10:10:14:186 [736e6d96][AppiumDriver@f12f] Event 'quitSessionFinished' logged at 1728468614185 (21:10:14 GMT+1100 (Australian Eastern Daylight Time))
+2024-10-09 10:10:14:186 [736e6d96][AppiumDriver@f12f] Received response: null
+2024-10-09 10:10:14:186 [736e6d96][AppiumDriver@f12f] But deleting session, so not returning
+2024-10-09 10:10:14:187 [736e6d96][AppiumDriver@f12f] Responding to client with driver.deleteSession() result: null
+2024-10-09 10:10:14:188 [736e6d96][HTTP] <-- DELETE /session/736e6d96-4180-417d-88f7-0120cd2bc6cc 200 1060 ms - 14 
+2024-10-09 10:10:14:206 [Appium] Received SIGTERM - shutting down
+2024-10-09 10:10:14:207 [AppiumDriver@f12f] There are no active sessions for cleanup
+2024-10-09 10:10:14:210 uncaughtException: write EPIPE
 Error: write EPIPE
     at afterWriteDispatched (node:internal/stream_base_commons:161:15)
     at writeGeneric (node:internal/stream_base_commons:152:3)
@@ -229,7 +278,7 @@ Error: write EPIPE
     at Object.onceWrapper (node:events:634:26)
     at process.emit (node:events:531:35)
     at process.emit (/usr/local/lib/node_modules/appium/node_modules/source-map-support/source-map-support.js:516:21)
-2024-10-08 11:52:14:261 uncaughtException: write EPIPE
+2024-10-09 10:10:14:211 uncaughtException: write EPIPE
 Error: write EPIPE
     at afterWriteDispatched (node:internal/stream_base_commons:161:15)
     at writeGeneric (node:internal/stream_base_commons:152:3)
@@ -260,12 +309,12 @@ Error: write EPIPE
     at process.emit (node:events:519:28)
     at process.emit (/usr/local/lib/node_modules/appium/node_modules/source-map-support/source-map-support.js:516:21)
     at processEmit (/usr/local/lib/node_modules/appium/node_modules/lockfile/node_modules/signal-exit/index.js:199:34)
-    at process.emit (/Users/aashok/node_modules/appium-uiautomator2-driver/node_modules/source-map-support/source-map-support.js:516:21)
-    at processEmit (/Users/aashok/node_modules/appium-uiautomator2-driver/node_modules/signal-exit/index.js:199:34)
     at process.emit (/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/source-map-support/source-map-support.js:516:21)
     at processEmit (/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/signal-exit/index.js:199:34)
     at process.emit (/Users/aashok/node_modules/source-map-support/source-map-support.js:516:21)
-2024-10-08 11:52:14:262 uncaughtException: write EPIPE
+    at processEmit (/Users/aashok/node_modules/lockfile/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/aashok/node_modules/appium-uiautomator2-driver/node_modules/source-map-support/source-map-support.js:516:21)
+2024-10-09 10:10:14:212 uncaughtException: write EPIPE
 Error: write EPIPE
     at afterWriteDispatched (node:internal/stream_base_commons:161:15)
     at writeGeneric (node:internal/stream_base_commons:152:3)
@@ -296,12 +345,12 @@ Error: write EPIPE
     at process.emit (node:events:519:28)
     at process.emit (/usr/local/lib/node_modules/appium/node_modules/source-map-support/source-map-support.js:516:21)
     at processEmit (/usr/local/lib/node_modules/appium/node_modules/lockfile/node_modules/signal-exit/index.js:199:34)
-    at process.emit (/Users/aashok/node_modules/appium-uiautomator2-driver/node_modules/source-map-support/source-map-support.js:516:21)
-    at processEmit (/Users/aashok/node_modules/appium-uiautomator2-driver/node_modules/signal-exit/index.js:199:34)
     at process.emit (/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/source-map-support/source-map-support.js:516:21)
     at processEmit (/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/signal-exit/index.js:199:34)
     at process.emit (/Users/aashok/node_modules/source-map-support/source-map-support.js:516:21)
-2024-10-08 11:52:14:263 uncaughtException: write EPIPE
+    at processEmit (/Users/aashok/node_modules/lockfile/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/aashok/node_modules/appium-uiautomator2-driver/node_modules/source-map-support/source-map-support.js:516:21)
+2024-10-09 10:10:14:212 uncaughtException: write EPIPE
 Error: write EPIPE
     at afterWriteDispatched (node:internal/stream_base_commons:161:15)
     at writeGeneric (node:internal/stream_base_commons:152:3)
@@ -332,12 +381,12 @@ Error: write EPIPE
     at process.emit (node:events:519:28)
     at process.emit (/usr/local/lib/node_modules/appium/node_modules/source-map-support/source-map-support.js:516:21)
     at processEmit (/usr/local/lib/node_modules/appium/node_modules/lockfile/node_modules/signal-exit/index.js:199:34)
-    at process.emit (/Users/aashok/node_modules/appium-uiautomator2-driver/node_modules/source-map-support/source-map-support.js:516:21)
-    at processEmit (/Users/aashok/node_modules/appium-uiautomator2-driver/node_modules/signal-exit/index.js:199:34)
     at process.emit (/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/source-map-support/source-map-support.js:516:21)
     at processEmit (/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/signal-exit/index.js:199:34)
     at process.emit (/Users/aashok/node_modules/source-map-support/source-map-support.js:516:21)
-2024-10-08 11:52:14:263 uncaughtException: write EPIPE
+    at processEmit (/Users/aashok/node_modules/lockfile/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/aashok/node_modules/appium-uiautomator2-driver/node_modules/source-map-support/source-map-support.js:516:21)
+2024-10-09 10:10:14:213 uncaughtException: write EPIPE
 Error: write EPIPE
     at afterWriteDispatched (node:internal/stream_base_commons:161:15)
     at writeGeneric (node:internal/stream_base_commons:152:3)
@@ -368,8 +417,8 @@ Error: write EPIPE
     at process.emit (node:events:519:28)
     at process.emit (/usr/local/lib/node_modules/appium/node_modules/source-map-support/source-map-support.js:516:21)
     at processEmit (/usr/local/lib/node_modules/appium/node_modules/lockfile/node_modules/signal-exit/index.js:199:34)
-    at process.emit (/Users/aashok/node_modules/appium-uiautomator2-driver/node_modules/source-map-support/source-map-support.js:516:21)
-    at processEmit (/Users/aashok/node_modules/appium-uiautomator2-driver/node_modules/signal-exit/index.js:199:34)
     at process.emit (/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/source-map-support/source-map-support.js:516:21)
     at processEmit (/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/signal-exit/index.js:199:34)
     at process.emit (/Users/aashok/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/aashok/node_modules/lockfile/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/aashok/node_modules/appium-uiautomator2-driver/node_modules/source-map-support/source-map-support.js:516:21)
