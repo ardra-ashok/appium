@@ -11,6 +11,7 @@ import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
+import java.util.Map;
 
 public class InbuiltAppBase{
     public AppiumDriverLocalService service;
@@ -45,5 +46,12 @@ public class InbuiltAppBase{
     public void tearDown(){
         driver.quit();
         service.stop();
+    }
+
+    public void scrollToEnd(Map<String,Object> params){
+        driver.executeScript("mobile:scroll",params);
+    }
+    public void scrollToElement(Map<String, Object> scrollParams){
+        driver.executeScript("mobile:scroll", scrollParams);
     }
 }
