@@ -41,7 +41,8 @@ public class baseTest {
         UiAutomator2Options options = new UiAutomator2Options();
         options.setDeviceName("Pixel_3a_testEmulator");
         options.setChromedriverExecutable("/Users/aashok/IdeaProjects/appium_learnings/drivers/chromedriver");
-        options.setApp("//Users//aashok//IdeaProjects//appium_learnings//src//test//resources//General-Store.apk");
+//        options.setApp("//Users//aashok//IdeaProjects//appium_learnings//src//test//resources//General-Store.apk");
+        options.setApp("//Users//aashok//IdeaProjects//appium_learnings//src//test//resources//ApiDemos-debug.apk");
 //      Xpath, id, accessibilityId, className , androidUiAutomator
 //		AndroidDriver driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(),options);
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723"),options);
