@@ -1,438 +1,250 @@
-2024-10-10 12:03:08:037 [Appium] Welcome to Appium v2.11.4
-2024-10-10 12:03:08:038 [Appium] Non-default server args:
-2024-10-10 12:03:08:039 [Appium] { address: '127.0.0.1', port: 4725 }
-2024-10-10 12:03:08:039 [Appium] The autodetected Appium home path: /Users/aashok
-2024-10-10 12:03:08:039 [Appium] Attempting to load driver uiautomator2...
-2024-10-10 12:03:08:039 [Appium] Attempting to load driver xcuitest...
-2024-10-10 12:03:08:040 [Appium] Requiring driver at /Users/aashok/node_modules/appium-uiautomator2-driver/build/index.js
-2024-10-10 12:03:08:042 [Appium] Requiring driver at /Users/aashok/node_modules/appium-xcuitest-driver/build/index.js
-2024-10-10 12:03:08:613 [Appium] AndroidUiautomator2Driver has been successfully loaded in 0.574s
-2024-10-10 12:03:08:613 [Appium] XCUITestDriver has been successfully loaded in 0.574s
-2024-10-10 12:03:08:621 [Appium] Appium REST http interface listener started on http://127.0.0.1:4725
-2024-10-10 12:03:08:621 [Appium] Available drivers:
-2024-10-10 12:03:08:621 [Appium]   - uiautomator2@3.8.0 (automationName 'UiAutomator2')
-2024-10-10 12:03:08:621 [Appium]   - xcuitest@7.27.0 (automationName 'XCUITest')
-2024-10-10 12:03:08:621 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
-2024-10-10 12:03:08:921 [HTTP] --> GET /status {}
-2024-10-10 12:03:08:922 [AppiumDriver@8fb6] Calling AppiumDriver.getStatus() with args: []
-2024-10-10 12:03:08:923 [AppiumDriver@8fb6] Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"2.11.4"}}
-2024-10-10 12:03:08:928 [HTTP] <-- GET /status 200 6 ms - 111 
-2024-10-10 12:03:09:135 [HTTP] Request idempotency key: f2d17a44-aaa8-4033-b95f-703e7d9672d7
-2024-10-10 12:03:09:138 [HTTP] --> POST /session {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:automationName":"XCuiTest","appium:deviceName":"iPhone 16","appium:platformVersion":"18.0","appium:wdaLaunchTimeout":20000,"platformName":"IOS"}}}
-2024-10-10 12:03:09:139 [AppiumDriver@8fb6] Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:automationName":"XCuiTest","appium:deviceName":"iPhone 16","appium:platformVersion":"18.0","appium:wdaLaunchTimeout":20000,"platformName":"IOS"}}]
-2024-10-10 12:03:09:139 [AppiumDriver@8fb6] Event 'newSessionRequested' logged at 1728561789139 (23:03:09 GMT+1100 (Australian Eastern Daylight Time))
-2024-10-10 12:03:09:140 [Appium] Attempting to find matching driver for automationName 'XCuiTest' and platformName 'IOS'
-2024-10-10 12:03:09:140 [Appium] The 'xcuitest' driver was installed and matched caps.
-2024-10-10 12:03:09:140 [Appium] Will require it at /Users/aashok/node_modules/appium-xcuitest-driver
-2024-10-10 12:03:09:141 [Appium] Requiring driver at /Users/aashok/node_modules/appium-xcuitest-driver/build/index.js
-2024-10-10 12:03:09:141 [AppiumDriver@8fb6] Appium v2.11.4 creating new XCUITestDriver (v7.27.0) session
-2024-10-10 12:03:09:141 [AppiumDriver@8fb6] Checking BaseDriver versions for Appium and XCUITestDriver
-2024-10-10 12:03:09:141 [AppiumDriver@8fb6] Appium's BaseDriver version is 9.11.4
-2024-10-10 12:03:09:141 [AppiumDriver@8fb6] XCUITestDriver's BaseDriver version is 9.11.4
-2024-10-10 12:03:09:143 [XCUITestDriver@5224] 
-2024-10-10 12:03:09:143 [XCUITestDriver@5224] Creating session with W3C capabilities: {
+2024-10-11 11:11:11:300 [Appium] Welcome to Appium v2.11.4
+2024-10-11 11:11:11:302 [Appium] Non-default server args:
+2024-10-11 11:11:11:303 [Appium] { address: '127.0.0.1' }
+2024-10-11 11:11:11:303 [Appium] The autodetected Appium home path: /Users/aashok
+2024-10-11 11:11:11:303 [Appium] Attempting to load driver uiautomator2...
+2024-10-11 11:11:11:303 [Appium] Attempting to load driver xcuitest...
+2024-10-11 11:11:11:304 [Appium] Requiring driver at /Users/aashok/node_modules/appium-xcuitest-driver/build/index.js
+2024-10-11 11:11:11:307 [Appium] Requiring driver at /Users/aashok/node_modules/appium-uiautomator2-driver/build/index.js
+2024-10-11 11:11:12:324 [Appium] XCUITestDriver has been successfully loaded in 1.021s
+2024-10-11 11:11:12:324 [Appium] AndroidUiautomator2Driver has been successfully loaded in 1.021s
+2024-10-11 11:11:12:333 [Appium] Appium REST http interface listener started on http://127.0.0.1:4723
+2024-10-11 11:11:12:334 [Appium] Available drivers:
+2024-10-11 11:11:12:334 [Appium]   - uiautomator2@3.8.0 (automationName 'UiAutomator2')
+2024-10-11 11:11:12:334 [Appium]   - xcuitest@7.27.0 (automationName 'XCUITest')
+2024-10-11 11:11:12:334 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+2024-10-11 11:11:12:599 [HTTP] --> GET /status {}
+2024-10-11 11:11:12:600 [AppiumDriver@69f6] Calling AppiumDriver.getStatus() with args: []
+2024-10-11 11:11:12:601 [AppiumDriver@69f6] Responding to client with driver.getStatus() result: {"ready":true,"message":"The server is ready to accept new connections","build":{"version":"2.11.4"}}
+2024-10-11 11:11:12:603 [HTTP] <-- GET /status 200 3 ms - 111 
+2024-10-11 11:11:12:852 [HTTP] Request idempotency key: 67bb1d00-2535-46aa-880a-8f235bc899a2
+2024-10-11 11:11:12:857 [HTTP] --> POST /session {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:app":"//Users//aashok//IdeaProjects//appium_learnings//src//test//resources//ApiDemos-debug.apk","appium:automationName":"UIAutomator2","appium:chromedriverExecutable":"/Users/aashok/IdeaProjects/appium_learnings/drivers/chromedriver","appium:deviceName":"Pixel_3a_testEmulator","platformName":"ANDROID"}}}
+2024-10-11 11:11:12:857 [AppiumDriver@69f6] Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:app":"//Users//aashok//IdeaProjects//appium_learnings//src//test//resources//ApiDemos-debug.apk","appium:automationName":"UIAutomator2","appium:chromedriverExecutable":"/Users/aashok/IdeaProjects/appium_learnings/drivers/chromedriver","appium:deviceName":"Pixel_3a_testEmulator","platformName":"ANDROID"}}]
+2024-10-11 11:11:12:858 [AppiumDriver@69f6] Event 'newSessionRequested' logged at 1728645072857 (22:11:12 GMT+1100 (Australian Eastern Daylight Time))
+2024-10-11 11:11:12:859 [Appium] Attempting to find matching driver for automationName 'UIAutomator2' and platformName 'ANDROID'
+2024-10-11 11:11:12:859 [Appium] The 'uiautomator2' driver was installed and matched caps.
+2024-10-11 11:11:12:859 [Appium] Will require it at /Users/aashok/node_modules/appium-uiautomator2-driver
+2024-10-11 11:11:12:859 [Appium] Requiring driver at /Users/aashok/node_modules/appium-uiautomator2-driver/build/index.js
+2024-10-11 11:11:12:859 [AppiumDriver@69f6] Appium v2.11.4 creating new AndroidUiautomator2Driver (v3.8.0) session
+2024-10-11 11:11:12:859 [AppiumDriver@69f6] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+2024-10-11 11:11:12:859 [AppiumDriver@69f6] Appium's BaseDriver version is 9.11.4
+2024-10-11 11:11:12:859 [AppiumDriver@69f6] AndroidUiautomator2Driver's BaseDriver version is 9.11.4
+2024-10-11 11:11:12:862 [38;5;-111m[AndroidUiautomator2Driver@1efd] 
+2024-10-11 11:11:12:862 [38;5;-111m[AndroidUiautomator2Driver@1efd] Creating session with W3C capabilities: {
   "alwaysMatch": {
-    "platformName": "IOS",
-    "appium:automationName": "XCuiTest",
-    "appium:deviceName": "iPhone 16",
-    "appium:platformVersion": "18.0",
-    "appium:wdaLaunchTimeout": 20000
+    "platformName": "ANDROID",
+    "appium:app": "//Users//aashok//IdeaProjects//appium_learnings//src//test//resources//ApiDemos-debug.apk",
+    "appium:automationName": "UIAutomator2",
+    "appium:chromedriverExecutable": "/Users/aashok/IdeaProjects/appium_learnings/drivers/chromedriver",
+    "appium:deviceName": "Pixel_3a_testEmulator"
   },
   "firstMatch": [
     {}
   ]
 }
-2024-10-10 12:03:09:146 [XCUITestDriver@5224] The desired capabilities include neither an app nor a bundleId. WebDriverAgent will be started without the default app
-2024-10-10 12:03:09:147 [6992584a][XCUITestDriver@5224] Session created with session id: 6992584a-2381-4614-89d3-6c140e9ce91e
-2024-10-10 12:03:09:151 [6992584a][XCUITest] Current user: 'aashok'
-2024-10-10 12:03:09:151 [6992584a][XCUITestDriver@5224] No real device udid has been provided in capabilities. Will select a matching simulator to run the test.
-2024-10-10 12:03:09:155 [6992584a][XCUITestDriver@5224] iOS SDK Version set to '18.0'
-2024-10-10 12:03:09:225 [6992584a][XCUITestDriver@5224] Looking for an existing Simulator with platformName: iOS, platformVersion: 18.0, deviceName: iPhone 16
-2024-10-10 12:03:09:237 [6992584a][XCUITestDriver@5224] Constructing iOS simulator for Xcode version 16.0 with udid '19E3402C-F20C-40C6-8863-A444D35718F0'
-2024-10-10 12:03:09:238 [6992584a][XCUITestDriver@5224] Determining device to run tests on: udid: '19E3402C-F20C-40C6-8863-A444D35718F0', real device: false
-2024-10-10 12:03:09:238 [6992584a][XCUITestDriver@5224] Event 'xcodeDetailsRetrieved' logged at 1728561789238 (23:03:09 GMT+1100 (Australian Eastern Daylight Time))
-2024-10-10 12:03:09:238 [6992584a][XCUITestDriver@5224] Event 'appConfigured' logged at 1728561789238 (23:03:09 GMT+1100 (Australian Eastern Daylight Time))
-2024-10-10 12:03:09:238 [6992584a][XCUITestDriver@5224] Event 'resetStarted' logged at 1728561789238 (23:03:09 GMT+1100 (Australian Eastern Daylight Time))
-2024-10-10 12:03:09:238 [6992584a][XCUITestDriver@5224] Event 'resetComplete' logged at 1728561789238 (23:03:09 GMT+1100 (Australian Eastern Daylight Time))
-2024-10-10 12:03:09:238 [6992584a][XCUITestDriver@5224] Using WDA path: '/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
-2024-10-10 12:03:09:238 [6992584a][XCUITestDriver@5224] Using WDA agent: '/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
-2024-10-10 12:03:09:313 [6992584a][XCUITestDriver@5224] Starting log capture for iOS Simulator with udid '19E3402C-F20C-40C6-8863-A444D35718F0' using simctl
-2024-10-10 12:03:09:496 [6992584a][XCUITestDriver@5224] Event 'logCaptureStarted' logged at 1728561789496 (23:03:09 GMT+1100 (Australian Eastern Daylight Time))
-2024-10-10 12:03:09:496 [6992584a][XCUITestDriver@5224] Setting up simulator
-2024-10-10 12:03:09:497 [6992584a][XCUITestDriver@5224] Setting preferences of 19E3402C-F20C-40C6-8863-A444D35718F0 Simulator to {"ConnectHardwareKeyboard":false}
-2024-10-10 12:03:09:497 [6992584a][XCUITestDriver@5224] Setting common Simulator preferences to {"RotateWindowWhenSignaledByGuest":true,"StartLastDeviceOnLaunch":false,"DetachOnWindowClose":false,"AttachBootedOnStart":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false}
-2024-10-10 12:03:09:512 [6992584a][XCUITestDriver@5224] Updated 19E3402C-F20C-40C6-8863-A444D35718F0 Simulator preferences at '/Users/aashok/Library/Preferences/com.apple.iphonesimulator.plist' with {"RotateWindowWhenSignaledByGuest":true,"StartLastDeviceOnLaunch":false,"DetachOnWindowClose":false,"AttachBootedOnStart":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false,"DevicePreferences":{"19E3402C-F20C-40C6-8863-A444D35718F0":{"SimulatorExternalDisplay":2114,"ConnectHardwareKeyboard":false,"ChromeTint":"","SimulatorWindowOrientation":"Portrait","SimulatorWindowRotationAngle":0,"SimulatorWindowGeometry":{"88602E02-B6B1-4624-BD69-A297BB056692":{"WindowCenter":"{1237.5, 505.5}","WindowScale":0.8931034482758621}}}}}
-2024-10-10 12:03:09:602 [6992584a][XCUITestDriver@5224] Got Simulator UI client PID: 760
-2024-10-10 12:03:09:603 [6992584a][XCUITestDriver@5224] Both Simulator with UDID '19E3402C-F20C-40C6-8863-A444D35718F0' and the UI client are currently running
-2024-10-10 12:03:09:604 [6992584a][XCUITestDriver@5224] Event 'simStarted' logged at 1728561789604 (23:03:09 GMT+1100 (Australian Eastern Daylight Time))
-2024-10-10 12:03:09:633 [6992584a][XCUITestDriver@5224] No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
-2024-10-10 12:03:09:633 [6992584a][DevCon Factory] Requesting connection for device 19E3402C-F20C-40C6-8863-A444D35718F0 on local port 8100
-2024-10-10 12:03:09:633 [6992584a][DevCon Factory] Cached connections count: 0
-2024-10-10 12:03:09:633 [6992584a][DevCon Factory] Successfully requested the connection for 19E3402C-F20C-40C6-8863-A444D35718F0:8100
-2024-10-10 12:03:09:634 [6992584a][XCUITestDriver@5224] Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
-2024-10-10 12:03:09:635 [6992584a][WD Proxy] Matched '/status' to command name 'getStatus'
-2024-10-10 12:03:09:635 [6992584a][WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
-2024-10-10 12:03:09:641 [6992584a][WD Proxy] Got response with status 200: {"value":{"build":{"upgradedAt":"1728269054421","version":"8.9.2","time":"Oct  7 2024 14:18:58","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"},"os":{"testmanagerdVersion":65535,"name":"iOS","sdkVersion":"18.0","version":"18.0"},"device":"iphone","ios":{"simulatorVersion":"18.0","ip":"192.168.0.27"},"message":"WebDriverAgent is ready to accept commands","state":"success","ready":true},"sessionId":"4620657A-D67B-41A0-BEA3-FBA52BF9B71D"}
-2024-10-10 12:03:09:641 [6992584a][XCUITestDriver@5224] Upgrade timestamp of the currently bundled WDA: 1728269054421
-2024-10-10 12:03:09:641 [6992584a][XCUITestDriver@5224] Upgrade timestamp of the WDA on the device: 1728269054421
-2024-10-10 12:03:09:641 [6992584a][XCUITestDriver@5224] Will reuse previously cached WDA instance at 'http://127.0.0.1:8100/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 8100 if this is an undesired behavior.
-2024-10-10 12:03:09:641 [6992584a][XCUITestDriver@5224] Trying to start WebDriverAgent 2 times with 10000ms interval
-2024-10-10 12:03:09:641 [6992584a][XCUITestDriver@5224] These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
-2024-10-10 12:03:09:641 [6992584a][XCUITestDriver@5224] Event 'wdaStartAttempted' logged at 1728561789641 (23:03:09 GMT+1100 (Australian Eastern Daylight Time))
-2024-10-10 12:03:09:641 [6992584a][XCUITestDriver@5224] Using provided WebdriverAgent at 'http://127.0.0.1:8100/'
-2024-10-10 12:03:09:642 [6992584a][WD Proxy] Matched '/status' to command name 'getStatus'
-2024-10-10 12:03:09:642 [6992584a][WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
-2024-10-10 12:03:09:644 [6992584a][WD Proxy] Got response with status 200: {"value":{"build":{"upgradedAt":"1728269054421","version":"8.9.2","time":"Oct  7 2024 14:18:58","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"},"os":{"testmanagerdVersion":65535,"name":"iOS","sdkVersion":"18.0","version":"18.0"},"device":"iphone","ios":{"simulatorVersion":"18.0","ip":"192.168.0.27"},"message":"WebDriverAgent is ready to accept commands","state":"success","ready":true},"sessionId":"4620657A-D67B-41A0-BEA3-FBA52BF9B71D"}
-2024-10-10 12:03:09:644 [6992584a][XCUITestDriver@5224] Event 'wdaSessionAttempted' logged at 1728561789644 (23:03:09 GMT+1100 (Australian Eastern Daylight Time))
-2024-10-10 12:03:09:644 [6992584a][XCUITestDriver@5224] Sending createSession command to WDA
-2024-10-10 12:03:09:645 [6992584a][XCUITestDriver@5224] Matched '/session' to command name 'createSession'
-2024-10-10 12:03:09:645 [6992584a][XCUITestDriver@5224] Proxying [POST /session] to [POST http://127.0.0.1:8100/session] with body: {"capabilities":{"firstMatch":[{"arguments":[],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true,"shouldTerminateApp":true,"forceAppLaunch":true,"useNativeCachingStrategy":true,"forceSimulatorSoftwareKeyboardPresence":true}],"alwaysMatch":{}}}
-2024-10-10 12:03:09:647 [6992584a][XCUITestDriver@5224] Got response with status 200: {"value":{"sessionId":"5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7","capabilities":{"sdkVersion":"18.0","device":"iphone"}},"sessionId":"5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7"}
-2024-10-10 12:03:09:647 [6992584a][XCUITestDriver@5224] Determined the downstream protocol as 'W3C'
-2024-10-10 12:03:09:647 [6992584a][XCUITestDriver@5224] WDA session startup took 3ms
-2024-10-10 12:03:09:647 [6992584a][XCUITestDriver@5224] Event 'wdaSessionStarted' logged at 1728561789647 (23:03:09 GMT+1100 (Australian Eastern Daylight Time))
-2024-10-10 12:03:09:647 [6992584a][XCUITestDriver@5224] Event 'wdaStarted' logged at 1728561789647 (23:03:09 GMT+1100 (Australian Eastern Daylight Time))
-2024-10-10 12:03:09:647 [6992584a][BaseDriver] The value of 'elementResponseAttributes' setting did not change. Skipping the update for it
-2024-10-10 12:03:09:648 [6992584a][BaseDriver] The value of 'shouldUseCompactResponses' setting did not change. Skipping the update for it
-2024-10-10 12:03:09:648 [6992584a][AppiumDriver@8fb6] New XCUITestDriver session created successfully, session 6992584a-2381-4614-89d3-6c140e9ce91e added to master session list
-2024-10-10 12:03:09:648 [6992584a][AppiumDriver@8fb6] Event 'newSessionStarted' logged at 1728561789648 (23:03:09 GMT+1100 (Australian Eastern Daylight Time))
-2024-10-10 12:03:09:648 [6992584a][XCUITestDriver@5224] Cached the protocol value 'W3C' for the new session 6992584a-2381-4614-89d3-6c140e9ce91e
-2024-10-10 12:03:09:648 [6992584a][XCUITestDriver@5224] Responding to client with driver.createSession() result: {"capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"IOS","automationName":"XCuiTest","deviceName":"iPhone 16","platformVersion":"18.0","wdaLaunchTimeout":20000,"udid":"19E3402C-F20C-40C6-8863-A444D35718F0"}}
-2024-10-10 12:03:09:648 [6992584a][HTTP] <-- POST /session 200 510 ms - 445 
-2024-10-10 12:03:09:675 [6992584a][HTTP] --> POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/timeouts {"implicit":20000}
-2024-10-10 12:03:09:675 [6992584a][XCUITestDriver@5224] Calling AppiumDriver.timeouts() with args: [null,null,null,null,20000,"6992584a-2381-4614-89d3-6c140e9ce91e"]
-2024-10-10 12:03:09:675 [6992584a][XCUITestDriver@5224] Executing command 'timeouts'
-2024-10-10 12:03:09:676 [6992584a][XCUITestDriver@5224] W3C timeout argument: {"implicit":20000}}
-2024-10-10 12:03:09:676 [6992584a][XCUITestDriver@5224] Set implicit wait to 20000ms
-2024-10-10 12:03:09:676 [6992584a][XCUITestDriver@5224] Responding to client with driver.timeouts() result: null
-2024-10-10 12:03:09:676 [6992584a][HTTP] <-- POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/timeouts 200 1 ms - 14 
-2024-10-10 12:03:09:687 [6992584a][HTTP] --> POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/execute/sync {"script":"mobile:launchApp","args":[{"bundleId":"com.apple.mobileslideshow"}]}
-2024-10-10 12:03:09:690 [6992584a][XCUITestDriver@5224] Calling AppiumDriver.execute() with args: ["mobile:launchApp",[{"bundleId":"com.apple.mobileslideshow"}],"6992584a-2381-4614-89d3-6c140e9ce91e"]
-2024-10-10 12:03:09:690 [6992584a][XCUITestDriver@5224] Executing command 'execute'
-2024-10-10 12:03:09:700 [6992584a][XCUITestDriver@5224] Proxying [POST /wda/apps/launch] to [POST http://127.0.0.1:8100/session/5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7/wda/apps/launch] with body: {"bundleId":"com.apple.mobileslideshow"}
-2024-10-10 12:03:09:723 [6992584a][XCUITestDriver@5224] Got response with status 200: {"value":null,"sessionId":"5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7"}
-2024-10-10 12:03:09:723 [6992584a][XCUITestDriver@5224] Responding to client with driver.execute() result: null
-2024-10-10 12:03:09:724 [6992584a][HTTP] <-- POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/execute/sync 200 37 ms - 14 
-2024-10-10 12:03:09:732 [6992584a][HTTP] --> POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/element {"using":"-ios predicate string","value":"label == 'Albums Album, 6 assets.'"}
-2024-10-10 12:03:09:733 [6992584a][XCUITestDriver@5224] Calling AppiumDriver.findElement() with args: ["-ios predicate string","label == 'Albums Album, 6 assets.'","6992584a-2381-4614-89d3-6c140e9ce91e"]
-2024-10-10 12:03:09:733 [6992584a][XCUITestDriver@5224] Executing command 'findElement'
-2024-10-10 12:03:09:733 [6992584a][XCUITestDriver@5224] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
-2024-10-10 12:03:09:734 [6992584a][XCUITestDriver@5224] Waiting up to 20000 ms for condition
-2024-10-10 12:03:09:738 [6992584a][XCUITestDriver@5224] Matched '/element' to command name 'findElement'
-2024-10-10 12:03:09:739 [6992584a][XCUITestDriver@5224] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7/element] with body: {"using":"predicate string","value":"label == 'Albums Album, 6 assets.'"}
-2024-10-10 12:03:09:897 [6992584a][XCUITestDriver@5224] Parsed BUILD_DIR configuration value: '/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/build'
-2024-10-10 12:03:09:897 [6992584a][XCUITestDriver@5224] Got derived data root: '/Users/aashok/node_modules/appium-xcuitest-driver/node_modules'
-2024-10-10 12:03:10:374 [6992584a][XCUITestDriver@5224] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'predicate string', value 'label == 'Albums Album, 6 assets.''","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010b6db6ec FBNoSuchElementErrorResponseForRequest + 252\n\t1   WebDriverAgentLib                   0x000000010b6db514 +[FBFindElementCommands handleFindElement:] + 312\n\t2   WebDriverAgentLib                   0x000000010b69e7cc -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t3   WebDriverAgentLib                   0x000000010b688200 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 404\n\t4   WebDriverAgentLib                   0x000000010b6c0d38 -[RoutingHTTPServer handleRoute:withRequest:response:] + 168\n\t5   WebDriverAgentLib                   0x000000010b6c1828 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 64\n\t6   libdispatch.dylib                   0x0000000180178de0 _dispatch_client_callout + 16\n\t7   libdispatch.dylib      ...
-2024-10-10 12:03:10:374 [6992584a][W3C] Matched W3C error code 'no such element' to NoSuchElementError
-2024-10-10 12:03:10:374 [6992584a][XCUITestDriver@5224] Waited for 640 ms so far
-2024-10-10 12:03:10:880 [6992584a][XCUITestDriver@5224] Matched '/element' to command name 'findElement'
-2024-10-10 12:03:10:881 [6992584a][XCUITestDriver@5224] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7/element] with body: {"using":"predicate string","value":"label == 'Albums Album, 6 assets.'"}
-2024-10-10 12:03:11:249 [6992584a][XCUITestDriver@5224] Got response with status 200: {"value":{"ELEMENT":"7D000000-0000-0000-F9D6-000000000000","element-6066-11e4-a52e-4f735466cecf":"7D000000-0000-0000-F9D6-000000000000"},"sessionId":"5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7"}
-2024-10-10 12:03:11:250 [6992584a][XCUITestDriver@5224] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"7D000000-0000-0000-F9D6-000000000000","ELEMENT":"7D000000-0000-0000-F9D6-000000000000"}
-2024-10-10 12:03:11:251 [6992584a][HTTP] <-- POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/element 200 1519 ms - 137 
-2024-10-10 12:03:11:259 [6992584a][HTTP] --> POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/element/7D000000-0000-0000-F9D6-000000000000/click {"id":"7D000000-0000-0000-F9D6-000000000000"}
-2024-10-10 12:03:11:260 [6992584a][XCUITestDriver@5224] Driver proxy active, passing request on via HTTP proxy
-2024-10-10 12:03:11:260 [6992584a][XCUITestDriver@5224] Executing command 'proxyReqRes'
-2024-10-10 12:03:11:261 [6992584a][XCUITestDriver@5224] Matched '/session/6992584a-2381-4614-89d3-6c140e9ce91e/element/7D000000-0000-0000-F9D6-000000000000/click' to command name 'click'
-2024-10-10 12:03:11:261 [6992584a][XCUITestDriver@5224] Proxying [POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/element/7D000000-0000-0000-F9D6-000000000000/click] to [POST http://127.0.0.1:8100/session/5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7/element/7D000000-0000-0000-F9D6-000000000000/click] with body: {"id":"7D000000-0000-0000-F9D6-000000000000"}
-2024-10-10 12:03:12:049 [6992584a][XCUITestDriver@5224] Got response with status 200: {"value":null,"sessionId":"5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7"}
-2024-10-10 12:03:12:050 [6992584a][XCUITestDriver@5224] Replacing sessionId 5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7 with 6992584a-2381-4614-89d3-6c140e9ce91e
-2024-10-10 12:03:12:051 [6992584a][HTTP] <-- POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/element/7D000000-0000-0000-F9D6-000000000000/click 200 792 ms - 65 
-2024-10-10 12:03:12:061 [6992584a][HTTP] --> POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/elements {"using":"-ios predicate string","value":"type == 'XCUIElementTypeImage' AND name BEGINSWITH[c] 'Photo'"}
-2024-10-10 12:03:12:062 [6992584a][XCUITestDriver@5224] Calling AppiumDriver.findElements() with args: ["-ios predicate string","type == 'XCUIElementTypeImage' AND name BEGINSWITH[c] 'Photo'","6992584a-2381-4614-89d3-6c140e9ce91e"]
-2024-10-10 12:03:12:062 [6992584a][XCUITestDriver@5224] Executing command 'findElements'
-2024-10-10 12:03:12:062 [6992584a][XCUITestDriver@5224] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
-2024-10-10 12:03:12:063 [6992584a][XCUITestDriver@5224] Waiting up to 20000 ms for condition
-2024-10-10 12:03:12:066 [6992584a][XCUITestDriver@5224] Matched '/elements' to command name 'findElements'
-2024-10-10 12:03:12:066 [6992584a][XCUITestDriver@5224] Proxying [POST /elements] to [POST http://127.0.0.1:8100/session/5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7/elements] with body: {"using":"predicate string","value":"type == 'XCUIElementTypeImage' AND name BEGINSWITH[c] 'Photo'"}
-2024-10-10 12:03:13:129 [6992584a][XCUITestDriver@5224] Got response with status 404: {"value":{"error":"stale element reference","message":"The previously found element \"\"photo.fill\" Image\" is not present in the current view anymore. Make sure the application UI has the expected state. You could also try to switch the binding strategy using the 'boundElementsByIndex' setting for the element lookup. Original error: No matches found for Identity Binding from input {(\n    Image, {{0.0, 459.0}, {123.9, 124.0}}, label: 'Photo, 31 March 2018, 6:14 am',\n    Image, {{125.6, 459.0}, {123.9, 124.0}}, label: 'Photo, 09 August 2012, 7:55 am',\n    Image, {{251.1, 459.0}, {123.9, 124.0}}, label: 'Photo, 09 August 2012, 7:29 am',\n    Image, {{0.0, 584.7}, {123.9, 124.0}}, label: 'Photo, 09 August 2012, 4:52 am',\n    Image, {{125.6, 584.7}, {123.9, 124.0}}, label: 'Photo, 13 March 2011, 11:17 am',\n    Image, {{251.1, 584.7}, {123.9, 124.0}}, label: 'Photo, Favourite, 10 October 2009, 8:09 am'\n)}","traceback":"(\n\t0   CoreFoundation                      0x00000001804b70ec __exceptionPreprocess ...
-2024-10-10 12:03:13:130 [6992584a][W3C] Matched W3C error code 'stale element reference' to StaleElementReferenceError
-2024-10-10 12:03:13:130 [6992584a][XCUITestDriver@5224] Waited for 1067 ms so far
-2024-10-10 12:03:13:634 [6992584a][XCUITestDriver@5224] Matched '/elements' to command name 'findElements'
-2024-10-10 12:03:13:634 [6992584a][XCUITestDriver@5224] Proxying [POST /elements] to [POST http://127.0.0.1:8100/session/5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7/elements] with body: {"using":"predicate string","value":"type == 'XCUIElementTypeImage' AND name BEGINSWITH[c] 'Photo'"}
-2024-10-10 12:03:16:156 [6992584a][XCUITestDriver@5224] Got response with status 200: {"value":[{"ELEMENT":"E9000000-0000-0000-F9D6-000000000000","element-6066-11e4-a52e-4f735466cecf":"E9000000-0000-0000-F9D6-000000000000"},{"ELEMENT":"EA000000-0000-0000-F9D6-000000000000","element-6066-11e4-a52e-4f735466cecf":"EA000000-0000-0000-F9D6-000000000000"},{"ELEMENT":"EB000000-0000-0000-F9D6-000000000000","element-6066-11e4-a52e-4f735466cecf":"EB000000-0000-0000-F9D6-000000000000"},{"ELEMENT":"EC000000-0000-0000-F9D6-000000000000","element-6066-11e4-a52e-4f735466cecf":"EC000000-0000-0000-F9D6-000000000000"},{"ELEMENT":"ED000000-0000-0000-F9D6-000000000000","element-6066-11e4-a52e-4f735466cecf":"ED000000-0000-0000-F9D6-000000000000"},{"ELEMENT":"EE000000-0000-0000-F9D6-000000000000","element-6066-11e4-a52e-4f735466cecf":"EE000000-0000-0000-F9D6-000000000000"}],"sessionId":"5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7"}
-2024-10-10 12:03:16:156 [6992584a][XCUITestDriver@5224] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"E9000000-0000-0000-F9D6-000000000000","ELEMENT":"E9000000-0000-0000-F9D6-000000000000"},{"element-6066-11e4-a52e-4f735466cecf":"EA000000-0000-0000-F9D6-000000000000","ELEMENT":"EA000000-0000-0000-F9D6-000000000000"},{"element-6066-11e4-a52e-4f735466cecf":"EB000000-0000-0000-F9D6-000000000000","ELEMENT":"EB000000-0000-0000-F9D6-000000000000"},{"element-6066-11e4-a52e-4f735466cecf":"EC000000-0000-0000-F9D6-000000000000","ELEMENT":"EC000000-0000-0000-F9D6-000000000000"},{"element-6066-11e4-a52e-4f735466cecf":"ED000000-0000-0000-F9D6-000000000000","ELEMENT":"ED000000-0000-0000-F9D6-000000000000"},{"element-6066-11e4-a52e-4f735466cecf":"EE000000-0000-0000-F9D6-000000000000","ELEMENT":"EE000000-0000-0000-F9D6-000000000000"}]
-2024-10-10 12:03:16:157 [6992584a][HTTP] <-- POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/elements 200 4096 ms - 779 
-2024-10-10 12:03:16:169 [6992584a][HTTP] --> POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/element {"using":"xpath","value":"//XCUIElementTypeImage[1]"}
-2024-10-10 12:03:16:170 [6992584a][XCUITestDriver@5224] Calling AppiumDriver.findElement() with args: ["xpath","//XCUIElementTypeImage[1]","6992584a-2381-4614-89d3-6c140e9ce91e"]
-2024-10-10 12:03:16:170 [6992584a][XCUITestDriver@5224] Executing command 'findElement'
-2024-10-10 12:03:16:170 [6992584a][XCUITestDriver@5224] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
-2024-10-10 12:03:16:170 [6992584a][XCUITestDriver@5224] Waiting up to 20000 ms for condition
-2024-10-10 12:03:16:172 [6992584a][XCUITestDriver@5224] Matched '/element' to command name 'findElement'
-2024-10-10 12:03:16:172 [6992584a][XCUITestDriver@5224] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7/element] with body: {"using":"xpath","value":"//XCUIElementTypeImage[1]"}
-2024-10-10 12:03:16:760 [6992584a][XCUITestDriver@5224] Got response with status 200: {"value":{"ELEMENT":"E9000000-0000-0000-F9D6-000000000000","element-6066-11e4-a52e-4f735466cecf":"E9000000-0000-0000-F9D6-000000000000"},"sessionId":"5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7"}
-2024-10-10 12:03:16:761 [6992584a][XCUITestDriver@5224] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"E9000000-0000-0000-F9D6-000000000000","ELEMENT":"E9000000-0000-0000-F9D6-000000000000"}
-2024-10-10 12:03:16:762 [6992584a][HTTP] <-- POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/element 200 593 ms - 137 
-2024-10-10 12:03:16:766 [6992584a][HTTP] --> POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/element/E9000000-0000-0000-F9D6-000000000000/click {"id":"E9000000-0000-0000-F9D6-000000000000"}
-2024-10-10 12:03:16:767 [6992584a][XCUITestDriver@5224] Driver proxy active, passing request on via HTTP proxy
-2024-10-10 12:03:16:767 [6992584a][XCUITestDriver@5224] Executing command 'proxyReqRes'
-2024-10-10 12:03:16:770 [6992584a][XCUITestDriver@5224] Matched '/session/6992584a-2381-4614-89d3-6c140e9ce91e/element/E9000000-0000-0000-F9D6-000000000000/click' to command name 'click'
-2024-10-10 12:03:16:770 [6992584a][XCUITestDriver@5224] Proxying [POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/element/E9000000-0000-0000-F9D6-000000000000/click] to [POST http://127.0.0.1:8100/session/5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7/element/E9000000-0000-0000-F9D6-000000000000/click] with body: {"id":"E9000000-0000-0000-F9D6-000000000000"}
-2024-10-10 12:03:17:413 [6992584a][XCUITestDriver@5224] Got response with status 200: {"value":null,"sessionId":"5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7"}
-2024-10-10 12:03:17:413 [6992584a][XCUITestDriver@5224] Replacing sessionId 5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7 with 6992584a-2381-4614-89d3-6c140e9ce91e
-2024-10-10 12:03:17:414 [6992584a][HTTP] <-- POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/element/E9000000-0000-0000-F9D6-000000000000/click 200 647 ms - 65 
-2024-10-10 12:03:17:419 [6992584a][HTTP] --> POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/execute/sync {"script":"mobile:swipe","args":[{"direction":"left"}]}
-2024-10-10 12:03:17:421 [6992584a][XCUITestDriver@5224] Calling AppiumDriver.execute() with args: ["mobile:swipe",[{"direction":"left"}],"6992584a-2381-4614-89d3-6c140e9ce91e"]
-2024-10-10 12:03:17:421 [6992584a][XCUITestDriver@5224] Executing command 'execute'
-2024-10-10 12:03:17:430 [6992584a][XCUITestDriver@5224] Proxying to WDA with an unknown route: POST /wda/swipe
-2024-10-10 12:03:17:435 [6992584a][XCUITestDriver@5224] Proxying [POST /wda/swipe] to [POST http://127.0.0.1:8100/session/5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7/wda/swipe] with body: {"direction":"left"}
-2024-10-10 12:03:18:035 [6992584a][XCUITestDriver@5224] Got response with status 200: {"value":null,"sessionId":"5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7"}
-2024-10-10 12:03:18:036 [6992584a][XCUITestDriver@5224] Responding to client with driver.execute() result: null
-2024-10-10 12:03:18:038 [6992584a][HTTP] <-- POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/execute/sync 200 618 ms - 14 
-2024-10-10 12:03:18:046 [6992584a][HTTP] --> POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/execute/sync {"script":"mobile:swipe","args":[{"direction":"left"}]}
-2024-10-10 12:03:18:047 [6992584a][XCUITestDriver@5224] Calling AppiumDriver.execute() with args: ["mobile:swipe",[{"direction":"left"}],"6992584a-2381-4614-89d3-6c140e9ce91e"]
-2024-10-10 12:03:18:047 [6992584a][XCUITestDriver@5224] Executing command 'execute'
-2024-10-10 12:03:18:053 [6992584a][XCUITestDriver@5224] Proxying to WDA with an unknown route: POST /wda/swipe
-2024-10-10 12:03:18:058 [6992584a][XCUITestDriver@5224] Proxying [POST /wda/swipe] to [POST http://127.0.0.1:8100/session/5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7/wda/swipe] with body: {"direction":"left"}
-2024-10-10 12:03:18:505 [6992584a][XCUITestDriver@5224] Got response with status 200: {"value":null,"sessionId":"5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7"}
-2024-10-10 12:03:18:506 [6992584a][XCUITestDriver@5224] Responding to client with driver.execute() result: null
-2024-10-10 12:03:18:508 [6992584a][HTTP] <-- POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/execute/sync 200 461 ms - 14 
-2024-10-10 12:03:18:515 [6992584a][HTTP] --> POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/execute/sync {"script":"mobile:swipe","args":[{"direction":"left"}]}
-2024-10-10 12:03:18:516 [6992584a][XCUITestDriver@5224] Calling AppiumDriver.execute() with args: ["mobile:swipe",[{"direction":"left"}],"6992584a-2381-4614-89d3-6c140e9ce91e"]
-2024-10-10 12:03:18:516 [6992584a][XCUITestDriver@5224] Executing command 'execute'
-2024-10-10 12:03:18:521 [6992584a][XCUITestDriver@5224] Proxying to WDA with an unknown route: POST /wda/swipe
-2024-10-10 12:03:18:526 [6992584a][XCUITestDriver@5224] Proxying [POST /wda/swipe] to [POST http://127.0.0.1:8100/session/5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7/wda/swipe] with body: {"direction":"left"}
-2024-10-10 12:03:18:974 [6992584a][XCUITestDriver@5224] Got response with status 200: {"value":null,"sessionId":"5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7"}
-2024-10-10 12:03:18:975 [6992584a][XCUITestDriver@5224] Responding to client with driver.execute() result: null
-2024-10-10 12:03:18:976 [6992584a][HTTP] <-- POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/execute/sync 200 461 ms - 14 
-2024-10-10 12:03:18:982 [6992584a][HTTP] --> POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/execute/sync {"script":"mobile:swipe","args":[{"direction":"left"}]}
-2024-10-10 12:03:18:983 [6992584a][XCUITestDriver@5224] Calling AppiumDriver.execute() with args: ["mobile:swipe",[{"direction":"left"}],"6992584a-2381-4614-89d3-6c140e9ce91e"]
-2024-10-10 12:03:18:983 [6992584a][XCUITestDriver@5224] Executing command 'execute'
-2024-10-10 12:03:18:988 [6992584a][XCUITestDriver@5224] Proxying to WDA with an unknown route: POST /wda/swipe
-2024-10-10 12:03:18:992 [6992584a][XCUITestDriver@5224] Proxying [POST /wda/swipe] to [POST http://127.0.0.1:8100/session/5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7/wda/swipe] with body: {"direction":"left"}
-2024-10-10 12:03:19:439 [6992584a][XCUITestDriver@5224] Got response with status 200: {"value":null,"sessionId":"5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7"}
-2024-10-10 12:03:19:440 [6992584a][XCUITestDriver@5224] Responding to client with driver.execute() result: null
-2024-10-10 12:03:19:442 [6992584a][HTTP] <-- POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/execute/sync 200 459 ms - 14 
-2024-10-10 12:03:19:449 [6992584a][HTTP] --> POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/execute/sync {"script":"mobile:swipe","args":[{"direction":"left"}]}
-2024-10-10 12:03:19:450 [6992584a][XCUITestDriver@5224] Calling AppiumDriver.execute() with args: ["mobile:swipe",[{"direction":"left"}],"6992584a-2381-4614-89d3-6c140e9ce91e"]
-2024-10-10 12:03:19:450 [6992584a][XCUITestDriver@5224] Executing command 'execute'
-2024-10-10 12:03:19:454 [6992584a][XCUITestDriver@5224] Proxying to WDA with an unknown route: POST /wda/swipe
-2024-10-10 12:03:19:459 [6992584a][XCUITestDriver@5224] Proxying [POST /wda/swipe] to [POST http://127.0.0.1:8100/session/5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7/wda/swipe] with body: {"direction":"left"}
-2024-10-10 12:03:19:907 [6992584a][XCUITestDriver@5224] Got response with status 200: {"value":null,"sessionId":"5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7"}
-2024-10-10 12:03:19:908 [6992584a][XCUITestDriver@5224] Responding to client with driver.execute() result: null
-2024-10-10 12:03:19:910 [6992584a][HTTP] <-- POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/execute/sync 200 460 ms - 14 
-2024-10-10 12:03:19:915 [6992584a][HTTP] --> POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/execute/sync {"script":"mobile:swipe","args":[{"direction":"left"}]}
-2024-10-10 12:03:19:916 [6992584a][XCUITestDriver@5224] Calling AppiumDriver.execute() with args: ["mobile:swipe",[{"direction":"left"}],"6992584a-2381-4614-89d3-6c140e9ce91e"]
-2024-10-10 12:03:19:916 [6992584a][XCUITestDriver@5224] Executing command 'execute'
-2024-10-10 12:03:19:921 [6992584a][XCUITestDriver@5224] Proxying to WDA with an unknown route: POST /wda/swipe
-2024-10-10 12:03:19:926 [6992584a][XCUITestDriver@5224] Proxying [POST /wda/swipe] to [POST http://127.0.0.1:8100/session/5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7/wda/swipe] with body: {"direction":"left"}
-2024-10-10 12:03:20:385 [6992584a][XCUITestDriver@5224] Got response with status 200: {"value":null,"sessionId":"5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7"}
-2024-10-10 12:03:20:386 [6992584a][XCUITestDriver@5224] Responding to client with driver.execute() result: null
-2024-10-10 12:03:20:387 [6992584a][HTTP] <-- POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/execute/sync 200 472 ms - 14 
-2024-10-10 12:03:20:393 [6992584a][HTTP] --> POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/element {"using":"-ios class chain","value":"**/XCUIElementTypeImage[`name == 'xmark'`]/XCUIElementTypeOther"}
-2024-10-10 12:03:20:394 [6992584a][XCUITestDriver@5224] Calling AppiumDriver.findElement() with args: ["-ios class chain","**/XCUIElementTypeImage[`name == 'xmark'`]/XCUIElementTypeOther","6992584a-2381-4614-89d3-6c140e9ce91e"]
-2024-10-10 12:03:20:394 [6992584a][XCUITestDriver@5224] Executing command 'findElement'
-2024-10-10 12:03:20:394 [6992584a][XCUITestDriver@5224] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
-2024-10-10 12:03:20:394 [6992584a][XCUITestDriver@5224] Waiting up to 20000 ms for condition
-2024-10-10 12:03:20:397 [6992584a][XCUITestDriver@5224] Matched '/element' to command name 'findElement'
-2024-10-10 12:03:20:397 [6992584a][XCUITestDriver@5224] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7/element] with body: {"using":"class chain","value":"**/XCUIElementTypeImage[`name == 'xmark'`]/XCUIElementTypeOther"}
-2024-10-10 12:03:20:473 [6992584a][XCUITestDriver@5224] Got response with status 200: {"value":{"ELEMENT":"24010000-0000-0000-F9D6-000000000000","element-6066-11e4-a52e-4f735466cecf":"24010000-0000-0000-F9D6-000000000000"},"sessionId":"5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7"}
-2024-10-10 12:03:20:474 [6992584a][XCUITestDriver@5224] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"24010000-0000-0000-F9D6-000000000000","ELEMENT":"24010000-0000-0000-F9D6-000000000000"}
-2024-10-10 12:03:20:474 [6992584a][HTTP] <-- POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/element 200 81 ms - 137 
-2024-10-10 12:03:20:477 [6992584a][HTTP] --> POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/execute/sync {"script":"mobile:touchAndHold","args":[{"duration":5,"element":"24010000-0000-0000-F9D6-000000000000"}]}
-2024-10-10 12:03:20:478 [6992584a][XCUITestDriver@5224] Calling AppiumDriver.execute() with args: ["mobile:touchAndHold",[{"duration":5,"element":"24010000-0000-0000-F9D6-000000000000"}],"6992584a-2381-4614-89d3-6c140e9ce91e"]
-2024-10-10 12:03:20:478 [6992584a][XCUITestDriver@5224] Executing command 'execute'
-2024-10-10 12:03:20:481 [6992584a][XCUITestDriver@5224] Proxying to WDA with an unknown route: POST /wda/element/24010000-0000-0000-F9D6-000000000000/touchAndHold
-2024-10-10 12:03:20:483 [6992584a][XCUITestDriver@5224] Proxying [POST /wda/element/24010000-0000-0000-F9D6-000000000000/touchAndHold] to [POST http://127.0.0.1:8100/session/5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7/wda/element/24010000-0000-0000-F9D6-000000000000/touchAndHold] with body: {"duration":5}
-2024-10-10 12:03:22:927 [6992584a][XCUITestDriver@5224] Got response with status 200: {"value":null,"sessionId":"5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7"}
-2024-10-10 12:03:22:927 [6992584a][XCUITestDriver@5224] Responding to client with driver.execute() result: null
-2024-10-10 12:03:22:928 [6992584a][HTTP] <-- POST /session/6992584a-2381-4614-89d3-6c140e9ce91e/execute/sync 200 2451 ms - 14 
-2024-10-10 12:03:22:939 [6992584a][HTTP] --> DELETE /session/6992584a-2381-4614-89d3-6c140e9ce91e {}
-2024-10-10 12:03:22:939 [6992584a][XCUITestDriver@5224] Calling AppiumDriver.deleteSession() with args: ["6992584a-2381-4614-89d3-6c140e9ce91e"]
-2024-10-10 12:03:22:939 [6992584a][AppiumDriver@8fb6] Event 'quitSessionRequested' logged at 1728561802939 (23:03:22 GMT+1100 (Australian Eastern Daylight Time))
-2024-10-10 12:03:22:940 [6992584a][AppiumDriver@8fb6] Removing session 6992584a-2381-4614-89d3-6c140e9ce91e from our master session list
-2024-10-10 12:03:22:941 [6992584a][XCUITestDriver@5224] Matched '/session/6992584a-2381-4614-89d3-6c140e9ce91e' to command name 'deleteSession'
-2024-10-10 12:03:22:941 [6992584a][XCUITestDriver@5224] Proxying [DELETE /session/6992584a-2381-4614-89d3-6c140e9ce91e] to [DELETE http://127.0.0.1:8100/session/5F34BB1A-B2EB-4889-BB4E-1096B30D6CE7] with no body
-2024-10-10 12:03:22:942 [6992584a][XCUITestDriver@5224] Got response with status 200: {"value":null,"sessionId":null}
-2024-10-10 12:03:22:942 [6992584a][DevCon Factory] Releasing connections for 19E3402C-F20C-40C6-8863-A444D35718F0 device on any port number
-2024-10-10 12:03:22:942 [6992584a][DevCon Factory] Found cached connections to release: ["19E3402C-F20C-40C6-8863-A444D35718F0:8100"]
-2024-10-10 12:03:22:943 [6992584a][DevCon Factory] Cached connections count: 0
-2024-10-10 12:03:22:943 [6992584a][XCUITestDriver@5224] Not clearing log files. Use `clearSystemFiles` capability to turn on.
-2024-10-10 12:03:22:943 [6992584a][XCUITestDriver@5224] Stopping iOS log capture
-2024-10-10 12:03:22:947 [6992584a][AppiumDriver@8fb6] Event 'quitSessionFinished' logged at 1728561802947 (23:03:22 GMT+1100 (Australian Eastern Daylight Time))
-2024-10-10 12:03:22:947 [6992584a][AppiumDriver@8fb6] Received response: null
-2024-10-10 12:03:22:947 [6992584a][AppiumDriver@8fb6] But deleting session, so not returning
-2024-10-10 12:03:22:947 [6992584a][AppiumDriver@8fb6] Responding to client with driver.deleteSession() result: null
-2024-10-10 12:03:22:948 [6992584a][HTTP] <-- DELETE /session/6992584a-2381-4614-89d3-6c140e9ce91e 200 9 ms - 14 
-2024-10-10 12:03:22:958 [Appium] Received SIGTERM - shutting down
-2024-10-10 12:03:22:958 [AppiumDriver@8fb6] There are no active sessions for cleanup
-2024-10-10 12:03:22:962 uncaughtException: write EPIPE
-Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:161:15)
-    at writeGeneric (node:internal/stream_base_commons:152:3)
-    at Socket._writeGeneric (node:net:954:11)
-    at Socket._write (node:net:966:8)
-    at writeOrBuffer (node:internal/streams/writable:570:12)
-    at _write (node:internal/streams/writable:499:10)
-    at Socket.Writable.write (node:internal/streams/writable:508:10)
-    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:87:23)
-    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/modern.js:103:17)
-    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:381:5)
-    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:302:11)
-    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:629:20)
-    at DerivedLogger.emit (node:events:531:35)
-    at addChunk (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:279:12)
-    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:262:11)
-    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:228:10)
-    at DerivedLogger.Transform.push (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:132:32)
-    at DerivedLogger._transform (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:313:12)
-    at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:166:10)
-    at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:155:83)
-    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:381:5)
-    at DerivedLogger.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:302:11)
-    at DerivedLogger.<computed> [as info] (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/create-logger.js:81:14)
-    at Log.<anonymous> (/usr/local/lib/node_modules/appium/lib/logsink.js:88:65)
-    at Log.emit (node:events:519:28)
-    at Log.log (/usr/local/lib/node_modules/appium/node_modules/@appium/logger/lib/log.ts:258:10)
-    at Log.info (/usr/local/lib/node_modules/appium/node_modules/@appium/logger/lib/log.ts:179:10)
-    at Object.wrappedLogger.<computed> [as info] (/usr/local/lib/node_modules/appium/node_modules/@appium/support/lib/logging.js:72:22)
-    at process.onSignal (/usr/local/lib/node_modules/appium/lib/main.js:438:14)
-    at Object.onceWrapper (node:events:634:26)
-    at process.emit (node:events:531:35)
-    at process.emit (/usr/local/lib/node_modules/appium/node_modules/source-map-support/source-map-support.js:516:21)
-2024-10-10 12:03:22:962 uncaughtException: write EPIPE
-Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:161:15)
-    at writeGeneric (node:internal/stream_base_commons:152:3)
-    at Socket._writeGeneric (node:net:954:11)
-    at Socket._write (node:net:966:8)
-    at writeOrBuffer (node:internal/streams/writable:570:12)
-    at _write (node:internal/streams/writable:499:10)
-    at Socket.Writable.write (node:internal/streams/writable:508:10)
-    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:59:25)
-    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/modern.js:103:17)
-    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:381:5)
-    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:302:11)
-    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:629:20)
-    at DerivedLogger.emit (node:events:531:35)
-    at addChunk (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:279:12)
-    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:262:11)
-    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:228:10)
-    at DerivedLogger.Transform.push (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:132:32)
-    at DerivedLogger._transform (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:313:12)
-    at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:166:10)
-    at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:155:83)
-    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:381:5)
-    at DerivedLogger.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:302:11)
-    at DerivedLogger.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:216:12)
-    at ExceptionHandler._uncaughtException (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/exception-handler.js:220:17)
-    at process.emit (node:events:519:28)
-    at process.emit (/usr/local/lib/node_modules/appium/node_modules/source-map-support/source-map-support.js:516:21)
-    at processEmit (/usr/local/lib/node_modules/appium/node_modules/lockfile/node_modules/signal-exit/index.js:199:34)
-    at process.emit (/Users/aashok/node_modules/appium-uiautomator2-driver/node_modules/source-map-support/source-map-support.js:516:21)
-    at processEmit (/Users/aashok/node_modules/appium-uiautomator2-driver/node_modules/signal-exit/index.js:199:34)
-    at process.emit (/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/source-map-support/source-map-support.js:516:21)
-    at processEmit (/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/signal-exit/index.js:199:34)
-    at process.emit (/Users/aashok/node_modules/source-map-support/source-map-support.js:516:21)
-2024-10-10 12:03:22:963 uncaughtException: write EPIPE
-Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:161:15)
-    at writeGeneric (node:internal/stream_base_commons:152:3)
-    at Socket._writeGeneric (node:net:954:11)
-    at Socket._write (node:net:966:8)
-    at writeOrBuffer (node:internal/streams/writable:570:12)
-    at _write (node:internal/streams/writable:499:10)
-    at Socket.Writable.write (node:internal/streams/writable:508:10)
-    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:59:25)
-    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/modern.js:103:17)
-    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:381:5)
-    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:302:11)
-    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:629:20)
-    at DerivedLogger.emit (node:events:531:35)
-    at addChunk (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:279:12)
-    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:262:11)
-    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:228:10)
-    at DerivedLogger.Transform.push (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:132:32)
-    at DerivedLogger._transform (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:313:12)
-    at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:166:10)
-    at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:155:83)
-    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:381:5)
-    at DerivedLogger.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:302:11)
-    at DerivedLogger.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:216:12)
-    at ExceptionHandler._uncaughtException (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/exception-handler.js:220:17)
-    at process.emit (node:events:519:28)
-    at process.emit (/usr/local/lib/node_modules/appium/node_modules/source-map-support/source-map-support.js:516:21)
-    at processEmit (/usr/local/lib/node_modules/appium/node_modules/lockfile/node_modules/signal-exit/index.js:199:34)
-    at process.emit (/Users/aashok/node_modules/appium-uiautomator2-driver/node_modules/source-map-support/source-map-support.js:516:21)
-    at processEmit (/Users/aashok/node_modules/appium-uiautomator2-driver/node_modules/signal-exit/index.js:199:34)
-    at process.emit (/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/source-map-support/source-map-support.js:516:21)
-    at processEmit (/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/signal-exit/index.js:199:34)
-    at process.emit (/Users/aashok/node_modules/source-map-support/source-map-support.js:516:21)
-2024-10-10 12:03:22:963 uncaughtException: write EPIPE
-Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:161:15)
-    at writeGeneric (node:internal/stream_base_commons:152:3)
-    at Socket._writeGeneric (node:net:954:11)
-    at Socket._write (node:net:966:8)
-    at writeOrBuffer (node:internal/streams/writable:570:12)
-    at _write (node:internal/streams/writable:499:10)
-    at Socket.Writable.write (node:internal/streams/writable:508:10)
-    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:59:25)
-    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/modern.js:103:17)
-    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:381:5)
-    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:302:11)
-    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:629:20)
-    at DerivedLogger.emit (node:events:531:35)
-    at addChunk (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:279:12)
-    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:262:11)
-    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:228:10)
-    at DerivedLogger.Transform.push (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:132:32)
-    at DerivedLogger._transform (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:313:12)
-    at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:166:10)
-    at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:155:83)
-    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:381:5)
-    at DerivedLogger.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:302:11)
-    at DerivedLogger.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:216:12)
-    at ExceptionHandler._uncaughtException (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/exception-handler.js:220:17)
-    at process.emit (node:events:519:28)
-    at process.emit (/usr/local/lib/node_modules/appium/node_modules/source-map-support/source-map-support.js:516:21)
-    at processEmit (/usr/local/lib/node_modules/appium/node_modules/lockfile/node_modules/signal-exit/index.js:199:34)
-    at process.emit (/Users/aashok/node_modules/appium-uiautomator2-driver/node_modules/source-map-support/source-map-support.js:516:21)
-    at processEmit (/Users/aashok/node_modules/appium-uiautomator2-driver/node_modules/signal-exit/index.js:199:34)
-    at process.emit (/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/source-map-support/source-map-support.js:516:21)
-    at processEmit (/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/signal-exit/index.js:199:34)
-    at process.emit (/Users/aashok/node_modules/source-map-support/source-map-support.js:516:21)
-2024-10-10 12:03:22:964 uncaughtException: write EPIPE
-Error: write EPIPE
-    at afterWriteDispatched (node:internal/stream_base_commons:161:15)
-    at writeGeneric (node:internal/stream_base_commons:152:3)
-    at Socket._writeGeneric (node:net:954:11)
-    at Socket._write (node:net:966:8)
-    at writeOrBuffer (node:internal/streams/writable:570:12)
-    at _write (node:internal/streams/writable:499:10)
-    at Socket.Writable.write (node:internal/streams/writable:508:10)
-    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:59:25)
-    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/modern.js:103:17)
-    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:381:5)
-    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:302:11)
-    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:629:20)
-    at DerivedLogger.emit (node:events:531:35)
-    at addChunk (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:279:12)
-    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:262:11)
-    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:228:10)
-    at DerivedLogger.Transform.push (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:132:32)
-    at DerivedLogger._transform (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:313:12)
-    at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:166:10)
-    at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:155:83)
-    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:390:139)
-    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:381:5)
-    at DerivedLogger.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:302:11)
-    at DerivedLogger.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:216:12)
-    at ExceptionHandler._uncaughtException (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/exception-handler.js:220:17)
-    at process.emit (node:events:519:28)
-    at process.emit (/usr/local/lib/node_modules/appium/node_modules/source-map-support/source-map-support.js:516:21)
-    at processEmit (/usr/local/lib/node_modules/appium/node_modules/lockfile/node_modules/signal-exit/index.js:199:34)
-    at process.emit (/Users/aashok/node_modules/appium-uiautomator2-driver/node_modules/source-map-support/source-map-support.js:516:21)
-    at processEmit (/Users/aashok/node_modules/appium-uiautomator2-driver/node_modules/signal-exit/index.js:199:34)
-    at process.emit (/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/source-map-support/source-map-support.js:516:21)
-    at processEmit (/Users/aashok/node_modules/appium-xcuitest-driver/node_modules/signal-exit/index.js:199:34)
-    at process.emit (/Users/aashok/node_modules/source-map-support/source-map-support.js:516:21)
+2024-10-11 11:11:12:865 [aa3bf066][38;5;-111m[AndroidUiautomator2Driver@1efd] Session created with session id: aa3bf066-205c-4ad2-9596-6dda30c23702
+2024-10-11 11:11:12:869 [aa3bf066][ADB] Found 2 'build-tools' folders under '/Users/aashok/Library/Android/sdk' (newest first):
+2024-10-11 11:11:12:869 [aa3bf066][ADB]     /Users/aashok/Library/Android/sdk/build-tools/35.0.0
+2024-10-11 11:11:12:869 [aa3bf066][ADB]     /Users/aashok/Library/Android/sdk/build-tools/34.0.0
+2024-10-11 11:11:12:869 [aa3bf066][ADB] Using 'adb' from '/Users/aashok/Library/Android/sdk/platform-tools/adb'
+2024-10-11 11:11:12:869 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2024-10-11 11:11:15:990 [aa3bf066][38;5;-111m[AndroidUiautomator2Driver@1efd] Retrieving device list
+2024-10-11 11:11:15:990 [aa3bf066][ADB] Trying to find connected Android devices
+2024-10-11 11:11:15:991 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:16:018 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:16:018 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:16:018 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:16:018 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:16:231 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:16:243 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:16:243 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:16:243 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:16:243 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:16:456 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:16:476 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:16:476 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:16:476 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:16:476 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:16:691 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:16:710 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:16:710 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:16:710 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:16:710 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:16:925 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:16:942 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:16:942 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:16:942 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:16:942 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:17:156 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:17:175 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:17:175 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:17:175 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:17:176 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:17:390 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:17:399 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:17:399 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:17:399 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:17:400 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:17:610 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:17:626 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:17:626 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:17:626 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:17:627 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:17:841 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:17:857 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:17:858 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:17:858 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:17:858 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:18:072 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:18:092 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:18:092 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:18:092 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:18:092 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:18:306 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:18:321 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:18:321 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:18:321 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:18:321 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:18:534 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:18:550 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:18:550 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:18:550 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:18:550 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:18:763 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:18:787 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:18:787 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:18:787 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:18:787 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:19:002 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:19:013 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:19:013 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:19:013 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:19:013 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:19:226 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:19:243 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:19:243 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:19:243 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:19:243 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:19:455 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:19:475 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:19:475 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:19:475 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:19:475 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:19:690 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:19:711 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:19:711 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:19:711 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:19:711 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:19:926 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:19:946 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:19:946 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:19:946 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:19:946 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:20:162 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:20:185 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:20:185 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:20:185 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:20:185 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:20:400 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:20:417 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:20:417 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:20:417 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:20:417 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:20:632 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:20:654 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:20:654 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:20:654 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:20:654 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:20:868 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:20:888 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:20:888 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:20:888 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:20:888 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:21:103 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:21:123 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:21:123 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:21:123 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:21:123 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:21:338 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:21:354 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:21:354 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:21:354 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:21:354 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:21:567 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:21:586 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:21:587 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:21:587 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:21:587 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:21:800 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:21:814 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:21:815 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:21:815 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:21:815 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:22:027 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:22:047 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:22:047 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:22:047 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:22:047 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:22:263 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:22:286 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:22:286 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:22:286 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:22:286 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:22:500 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:22:524 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:22:524 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:22:524 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:22:524 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:22:739 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:22:760 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:22:760 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:22:760 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:22:760 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:22:976 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:22:997 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:22:997 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:22:997 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:22:997 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:23:212 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:23:233 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:23:233 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:23:233 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:23:233 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:23:448 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:23:468 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:23:468 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:23:468 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:23:468 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:23:683 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:23:698 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:23:698 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:23:698 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:23:698 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:23:911 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:23:926 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:23:926 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:23:926 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:23:926 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:24:140 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:24:152 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:24:152 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:24:152 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:24:152 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:24:364 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:24:381 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:24:381 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:24:381 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:24:381 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:24:595 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:24:614 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:24:614 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:24:614 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:24:615 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2024-10-11 11:11:24:748 [Appium] Received SIGINT - shutting down
+2024-10-11 11:11:24:749 [AppiumDriver@69f6] There are no active sessions for cleanup
+2024-10-11 11:11:24:749 [HTTP] Closing Appium HTTP server
+2024-10-11 11:11:24:828 [aa3bf066][ADB] Getting connected devices
+2024-10-11 11:11:24:840 [aa3bf066][ADB] No connected devices have been detected
+2024-10-11 11:11:24:840 [aa3bf066][ADB] Could not find online devices
+2024-10-11 11:11:24:840 [aa3bf066][ADB] Reconnecting adb (target offline)
+2024-10-11 11:11:24:840 [aa3bf066][ADB] Running '/Users/aashok/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'

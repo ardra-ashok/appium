@@ -14,17 +14,15 @@ import java.time.Duration;
 import java.util.List;
 
 public class ecommerce extends baseTest {
-
+    private static final FormPage formPage = new FormPage(driver);
     @Test
-    public void fillForm() throws InterruptedException {
-        FormPage formPage = new FormPage(driver);
-        driver.findElement(By.xpath("//android.widget.EditText[@resource-id='com.androidsample.generalstore:id/nameField']")).sendKeys("Test Name");
-        driver.hideKeyboard();
-        driver.findElement(By.xpath("//android.widget.RadioButton[@text='Female']")).click();
-        driver.findElement(By.id("android:id/text1")).click();
-        scrollToAnElement("Argentina");
-        driver.findElement(By.xpath("//android.widget.TextView[@text='Antarctica']")).click();
-        driver.findElement(By.id("com.androidsample.generalstore:id/btnLetsShop")).click();
+    public void fillForm() {
+        formPage.setNameField("Test name");
+        formPage.setGender("female");
+        formPage.setCountry("Argentina");
+        formPage.submitForm();
+
+
 //        Assert.assertEquals(driver.findElement(By.xpath("(//android.widget.Toast)[1]")).getAttribute("name"),"Please enter your name");
         scrollToAnElement("Jordan 6 Rings");
         int productCount = driver.findElements(By.id("com.androidsample.generalstore:id/productName")).size();
@@ -40,12 +38,10 @@ public class ecommerce extends baseTest {
     }
     @Test
     public void verifyCartTotal() throws InterruptedException {
-        driver.findElement(By.xpath("//android.widget.EditText[@resource-id='com.androidsample.generalstore:id/nameField']")).sendKeys("Test Name");
-        driver.hideKeyboard();
-        driver.findElement(By.xpath("//android.widget.RadioButton[@text='Female']")).click();
-        driver.findElement(By.id("android:id/text1")).click();
-        scrollToAnElement("Argentina");
-        driver.findElement(By.xpath("//android.widget.TextView[@text='Antarctica']")).click();
+        formPage.setNameField("Test name");
+        formPage.setGender("female");
+        formPage.setCountry("Argentina");
+
         driver.findElement(By.id("com.androidsample.generalstore:id/btnLetsShop")).click();
         driver.findElements(By.xpath("//android.widget.TextView[@text='ADD TO CART']")).get(0).click();
         driver.findElements(By.xpath("//android.widget.TextView[@text='ADD TO CART']")).get(0).click();
